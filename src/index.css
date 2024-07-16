@@ -1,0 +1,93 @@
+/* Tailwind CSS imports (make sure this is in your main CSS file) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Keyframes for filling bar animation */
+@keyframes fillBar {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--skill-level);
+  }
+}
+
+.animate-bar .skill-fill {
+  animation: fillBar 1.5s ease-out forwards;
+}
+
+/* Relative and absolute positioning */
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+/* Group hover effects for opacity */
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
+.group-hover\:opacity-100 {
+  opacity: 0;
+}
+
+/* Background color with opacity */
+.bg-gray-800 {
+  background-color: rgba(31, 41, 55, 0.75); /* Gray-800 with 75% opacity */
+}
+
+/* Transition effects */
+.transition-opacity {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.transition-transform {
+  transition: transform 0.3s ease-in-out;
+}
+
+.transform:hover {
+  transform: scale(1.05);
+}
+
+/* Keyframes for marquee animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative; /* Ensure it stays within its container */
+  animation: marquee 15s linear infinite, colorChange 15s linear infinite; /* Apply both animations with extended duration */
+}
+
+/* Keyframes for color-changing effect with many colors */
+@keyframes colorChange {
+  0% { color: #ff0000; text-shadow: 0 0 10px #ff0000; } /* Red */
+  10% { color: #ff7f00; text-shadow: 0 0 10px #ff7f00; } /* Orange */
+  20% { color: #ffff00; text-shadow: 0 0 10px #ffff00; } /* Yellow */
+  30% { color: #00ff00; text-shadow: 0 0 10px #00ff00; } /* Green */
+  40% { color: #0000ff; text-shadow: 0 0 10px #0000ff; } /* Blue */
+  50% { color: #4b0082; text-shadow: 0 0 10px #4b0082; } /* Indigo */
+  60% { color: #8a2be2; text-shadow: 0 0 10px #8a2be2; } /* Violet */
+  70% { color: #ff1493; text-shadow: 0 0 10px #ff1493; } /* Deep Pink */
+  80% { color: #ff6347; text-shadow: 0 0 10px #ff6347; } /* Tomato */
+  90% { color: #00ffff; text-shadow: 0 0 10px #00ffff; } /* Cyan */
+  100% { color: #ff69b4; text-shadow: 0 0 10px #ff69b4; } /* Hot Pink */
+}
+
+@media (max-width: 768px) {
+  .animate-marquee {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+}

@@ -38,7 +38,7 @@ export default function Home() {
               {/* Social Media Buttons */}
               <div className="flex flex-wrap gap-4 justify-center mb-6">
                 <a 
-                  href="https://api.whatsapp.com/send?phone=0701571745&text=Hi%2C%20my%20name%20is%20Peter%20Mbugua.%20I%20would%20like%20to%20discuss%20something%20with%20you."
+                  href="https://api.whatsapp.com/send?phone=0103947514&text=Hi%2C%20my%20name%20is%20Peter%20Mbugua.%20I%20would%20like%20to%20discuss%20something%20with%20you."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-4 py-2 text-white bg-green-500 rounded-full hover:bg-green-600 transition duration-300"

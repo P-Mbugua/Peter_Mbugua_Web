@@ -5,8 +5,8 @@ import { FaWhatsapp, FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaGithub } 
 
 export default function Home() {
   return (
-    <div className="bg-gray-100 min-h-screen mt-24 sm:mt-16 md:mt-12 lg:mt-8 xl:mt-6 flex flex-col items-center justify-center relative overflow-hidden">
-      <div className="w-full max-w-7xl px-4">
+    <div className="bg-gray-100 min-h-screen mt-24 sm:mt-16 md:mt-12 lg:mt-8 xl:mt-6 flex flex-col items-center justify-center relative overflow-hidden px-4">
+      <div className="w-full max-w-7xl">
         {/* Home Card with Moving Welcome Text */}
         <div className="relative flex flex-col items-center p-4 md:p-8 bg-white shadow-2xl rounded-xl mx-auto overflow-hidden">
           {/* Moving Welcome Text */}
@@ -16,9 +16,9 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="pt-20 md:pt-24 flex flex-col md:flex-row items-center justify-center w-full z-10">
+          <div className="pt-16 md:pt-24 flex flex-col md:flex-row items-center justify-center w-full">
             {/* Profile Photo Container with Dark Background */}
-            <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden bg-gray-900 shadow-lg flex items-center justify-center mb-8 md:mb-0 md:mr-12">
+            <div className="relative w-40 h-40 md:w-64 md:h-64 rounded-full overflow-hidden bg-gray-900 shadow-lg flex items-center justify-center mb-6 md:mb-0 md:mr-8">
               <img 
                 src="https://p-mbugua.github.io/Official-_Portfolio/peter.png" 
                 alt="Profile Photo" 
@@ -27,12 +27,12 @@ export default function Home() {
             </div>
 
             {/* Description and Buttons */}
-            <div className="flex flex-col items-center md:items-start w-full">
-              <p className="text-sm md:text-lg mb-6 leading-relaxed text-gray-800 text-center md:text-left">
+            <div className="flex flex-col items-center md:items-start w-full text-center md:text-left">
+              <p className="text-sm md:text-lg mb-4 leading-relaxed text-gray-800">
                 Hi, I'm Peter Mbugua, a Junior Software Engineer passionate about developing cool and user-friendly systems. 
                 I thrive on working with [specific types of projects or technologies]. My background includes website development.
               </p>
-              <Link to="/more-about-me" className="inline-block px-6 md:px-8 py-2 md:py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition duration-300 mb-6 text-sm md:text-lg">
+              <Link to="/more-about-me" className="inline-block px-6 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition duration-300 mb-4 text-sm md:text-lg">
                 Learn More About Me
               </Link>
               

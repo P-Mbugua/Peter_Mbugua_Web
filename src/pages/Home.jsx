@@ -4,12 +4,12 @@ import { FaWhatsapp, FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaGithub } 
 
 export default function Home() {
   return (
-    <div className="bg-gray-100 min-h-screen mt-24 sm:mt-16 md:mt-12 lg:mt-8 xl:mt-6 flex flex-col items-center justify-center relative overflow-hidden px-4">
+    <div className="bg-gray-100 pb-2 mt-24 sm:mt-16 md:mt-12 lg:mt-8 xl:mt-6 flex flex-col items-center justify-center relative overflow-hidden px-4">
       <div className="w-full max-w-7xl">
         {/* Home Card with Moving Welcome Text */}
         <div className="relative flex flex-col items-center p-2 md:p-4 lg:p-6 xl:p-8 bg-white shadow-2xl rounded-xl mx-auto overflow-hidden animate-fall-in">
           {/* Moving Welcome Text */}
-          <div className="absolute top-0 left-0 right-0 p-2 md:p-4 lg:p-6 text-center bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 z-10 animate-fall-in">
+          <div className="absolute top-0 left-0 right-0 p-0 md:p-2 lg:p-4 text-center bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 z-10 animate-fall-in">
             <p className="text-sm md:text-lg lg:text-xl xl:text-2xl font-semibold animate-marquee color-changing">
               Welcome to My Page! 💖 I’m so glad you’re here! Explore and connect with me!
             </p>

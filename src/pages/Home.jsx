@@ -7,17 +7,17 @@ export default function Home() {
     <div className="bg-gray-100 min-h-screen mt-24 sm:mt-16 md:mt-12 lg:mt-8 xl:mt-6 flex flex-col items-center justify-center relative overflow-hidden px-4">
       <div className="w-full max-w-7xl">
         {/* Home Card with Moving Welcome Text */}
-        <div className="relative flex flex-col items-center p-4 md:p-8 bg-white shadow-2xl rounded-xl mx-auto overflow-hidden animate-fall-in">
+        <div className="relative flex flex-col items-center p-2 md:p-4 lg:p-6 xl:p-8 bg-white shadow-2xl rounded-xl mx-auto overflow-hidden animate-fall-in">
           {/* Moving Welcome Text */}
-          <div className="absolute top-0 left-0 right-0 p-4 md:p-6 text-center bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 z-10 animate-fall-in">
-            <p className="text-lg md:text-3xl font-semibold animate-marquee color-changing">
+          <div className="absolute top-0 left-0 right-0 p-2 md:p-4 lg:p-6 text-center bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 z-10 animate-fall-in">
+            <p className="text-sm md:text-lg lg:text-xl xl:text-2xl font-semibold animate-marquee color-changing">
               Welcome to My Page! 💖 I’m so glad you’re here! Explore and connect with me!
             </p>
           </div>
 
-          <div className="pt-16 md:pt-24 flex flex-col md:flex-row items-center justify-center w-full">
+          <div className="pt-8 md:pt-12 lg:pt-16 xl:pt-24 flex flex-col md:flex-row items-center justify-center w-full">
             {/* Profile Photo Container with Dark Background */}
-            <div className="relative w-40 h-40 md:w-64 md:h-64 rounded-full overflow-hidden bg-gray-900 shadow-lg flex items-center justify-center mb-6 md:mb-0 md:mr-8 animate-fall-in">
+            <div className="relative w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 xl:w-64 xl:h-64 rounded-full overflow-hidden bg-gray-900 shadow-lg flex items-center justify-center mb-4 md:mb-6 lg:mb-8 xl:mb-0 md:mr-4 lg:mr-6 xl:mr-8 animate-fall-in">
               <img 
                 src="https://p-mbugua.github.io/Official-_Portfolio/peter.png" 
                 alt="Profile Photo" 
@@ -26,26 +26,26 @@ export default function Home() {
             </div>
 
             {/* Description and Buttons */}
-            <div className="flex flex-col items-center md:items-start w-full text-center md:text-left animate-fall-in">
-              <p className="text-sm md:text-lg mb-4 leading-relaxed text-gray-800">
+            <div className="flex flex-col items-center md:items-start w-full text-center md:text-left">
+              <p className="text-xs md:text-sm lg:text-base xl:text-lg mb-2 md:mb-4 lg:mb-6 xl:mb-8 leading-relaxed text-gray-800 animate-fall-in">
                 Hi, I'm Peter Mbugua, a Junior Software Engineer passionate about developing cool and user-friendly systems. 
                 I thrive on working with [specific types of projects or technologies]. My background includes website development.
               </p>
-              <Link to="/more-about-me" className="inline-block px-6 py-3 text-white bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105 text-sm md:text-lg animate-fall-in">
+              <Link to="/more-about-me" className="inline-block px-4 py-2 text-white bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105 text-xs md:text-sm lg:text-base xl:text-lg animate-fall-in">
                 Learn More About Me
               </Link>
               
               {/* Social Media Section */}
-              <div className="w-full text-center mb-6">
-                <h2 className="text-xl md:text-2xl font-bold text-gradient mb-2 animate-fall-in">
+              <div className="w-full text-center mb-4 md:mb-6 lg:mb-8 xl:mb-10">
+                <h2 className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold text-gradient mb-2 animate-fall-in">
                   Connect with me on my social accounts
                 </h2>
-                <p className="text-sm md:text-base text-gray-600 mb-6 animate-fall-in">
+                <p className="text-xs md:text-sm lg:text-base xl:text-lg text-gray-600 mb-4 md:mb-6 lg:mb-8 xl:mb-10 animate-fall-in">
                   Make your life easier with better codings and stay updated with my latest work!
                 </p>
 
                 {/* Social Media Buttons */}
-                <div className="flex flex-wrap gap-4 justify-center md:justify-start">
+                <div className="flex flex-wrap gap-2 md:gap-4 justify-center md:justify-start">
                   <a 
                     href="https://api.whatsapp.com/send?phone=+254701571745&text=Hi%2C%20my%20name%20is%20Peter%20Mbugua.%20I%20would%20like%20to%20discuss%20something%20with%20you."
                     target="_blank"
@@ -111,7 +111,7 @@ export default function Home() {
                 href="https://drive.google.com/file/d/1MwyqRGN-Qr-UH_oMc7gJP7b7t8QidfsV/view" // Adjust the URL to your actual CV file path
                 target="_blank" // Opens the link in a new tab
                 rel="noopener noreferrer" // Security measure
-                className="inline-block px-6 py-2 text-white bg-gray-800 rounded-lg hover:bg-gray-900 transition duration-300 text-sm md:text-lg animate-fall-in"
+                className="inline-block px-4 py-2 text-white bg-gray-800 rounded-lg hover:bg-gray-900 transition duration-300 text-xs md:text-sm lg:text-base xl:text-lg animate-fall-in"
               >
                 View CV
               </a>

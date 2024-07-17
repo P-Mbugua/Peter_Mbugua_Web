@@ -99,5 +99,32 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+
+
+
+/* global.css or styles.css */
+
+/* Keyframes for the falling effect */
+@keyframes fallIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animation class */
+.animate-fall-in {
+  animation: fallIn 0.6s ease-out forwards;
+}
+
+/* Optional additional classes for staggered effects */
+.staggered-animate {
+  opacity: 0;
+  animation: fallIn 0.6s ease-out forwards;
 }

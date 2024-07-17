@@ -38,15 +38,16 @@ export default function Home() {
               
               {/* Social Media Buttons */}
               <div className="flex flex-wrap gap-3 md:gap-4 justify-center mb-6">
-                <a 
-                  href="https://api.whatsapp.com/send?phone=[YourPhoneNumber]"
+              <a 
+                  href="https://api.whatsapp.com/send?phone=0701571745&text=Hi%2C%20my%20name%20is%20Peter%20Mbugua.%20I%20would%20like%20to%20discuss%20something%20with%20you."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-3 py-2 text-white bg-green-500 rounded-full hover:bg-green-600 text-sm md:text-md"
-                >
+                  >
                   <FaWhatsapp className="mr-1 md:mr-2 text-lg md:text-xl" />
                   WhatsApp
-                </a>
+              </a>
+
                 <a 
                   href="https://www.facebook.com/[YourProfile]"
                   target="_blank"

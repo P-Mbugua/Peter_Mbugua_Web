@@ -1,4 +1,3 @@
-// Home.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaWhatsapp, FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa'; // Import social media icons including GitHub
@@ -37,7 +36,7 @@ export default function Home() {
               </Link>
               
               {/* Social Media Buttons */}
-              <div className="flex flex-wrap gap-4 justify-center">
+              <div className="flex flex-wrap gap-4 justify-center mb-6">
                 <a 
                   href="https://api.whatsapp.com/send?phone=0701571745&text=Hi%2C%20my%20name%20is%20Peter%20Mbugua.%20I%20would%20like%20to%20discuss%20something%20with%20you."
                   target="_blank"
@@ -96,6 +95,16 @@ export default function Home() {
                   GitHub
                 </a>
               </div>
+
+              {/* View CV Button */}
+              <a 
+                href="https://drive.google.com/file/d/1MwyqRGN-Qr-UH_oMc7gJP7b7t8QidfsV/view" // Adjust the URL to your actual CV file path
+                target="_blank" // Opens the link in a new tab
+                rel="noopener noreferrer" // Security measure
+                className="inline-block px-6 py-2 text-white bg-gray-800 rounded-lg hover:bg-gray-900 transition duration-300 text-sm md:text-lg"
+              >
+                View CV
+              </a>
             </div>
           </div>
         </div>

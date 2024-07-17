@@ -35,65 +35,75 @@ export default function Home() {
                 Learn More About Me
               </Link>
               
-              {/* Social Media Buttons */}
-              <div className="flex flex-wrap gap-4 justify-center mb-6">
-                <a 
-                  href="https://api.whatsapp.com/send?phone=+254701571745&text=Hi%2C%20my%20name%20is%20Peter%20Mbugua.%20I%20would%20like%20to%20discuss%20something%20with%20you."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-4 py-2 text-white bg-green-500 rounded-full hover:bg-green-600 transition duration-300"
-                >
-                  <FaWhatsapp className="mr-2 text-lg" />
-                  WhatsApp
-                </a>
+              {/* Social Media Section */}
+              <div className="w-full text-center mb-6">
+                <h2 className="text-xl md:text-2xl font-bold text-gradient mb-2">
+                  Connect with me on my social accounts
+                </h2>
+                <p className="text-sm md:text-base text-gray-600 mb-6">
+                  Make your life easier with better codings and stay updated with my latest work!
+                </p>
 
-                <a 
-                  href="https://www.fb.com/l/6lp1kJRRR"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-4 py-2 text-white bg-blue-700 rounded-full hover:bg-blue-800 transition duration-300"
-                >
-                  <FaFacebook className="mr-2 text-lg" />
-                  Facebook
-                </a>
-                <a 
-                  href="https://twitter.com/pmbugua276"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-4 py-2 text-white bg-blue-400 rounded-full hover:bg-blue-500 transition duration-300"
-                >
-                  <FaTwitter className="mr-2 text-lg" />
-                  Twitter
-                </a>
-                <a 
-                  href="https://www.linkedin.com/in/peter-mbugua-a6351a262"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-4 py-2 text-white bg-blue-800 rounded-full hover:bg-blue-900 transition duration-300"
-                >
-                  <FaLinkedin className="mr-2 text-lg" />
-                  LinkedIn
-                </a>
-                <a 
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-4 py-2 text-white bg-pink-500 rounded-full hover:bg-pink-600 transition duration-300"
-                >
-                  <FaInstagram className="mr-2 text-lg" />
-                  Instagram
-                </a>
-                
-                {/* GitHub Button */}
-                <a 
-                  href="https://github.com/P-Mbugua"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-4 py-2 text-white bg-gray-800 rounded-full hover:bg-gray-900 transition duration-300"
-                >
-                  <FaGithub className="mr-2 text-lg" />
-                  GitHub
-                </a>
+                {/* Social Media Buttons */}
+                <div className="flex flex-wrap gap-4 justify-center md:justify-start">
+                  <a 
+                    href="https://api.whatsapp.com/send?phone=+254701571745&text=Hi%2C%20my%20name%20is%20Peter%20Mbugua.%20I%20would%20like%20to%20discuss%20something%20with%20you."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-4 py-2 text-white bg-green-500 rounded-full hover:bg-green-600 transition duration-300"
+                  >
+                    <FaWhatsapp className="mr-2 text-lg" />
+                    WhatsApp
+                  </a>
+
+                  <a 
+                    href="https://www.fb.com/l/6lp1kJRRR"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-4 py-2 text-white bg-blue-700 rounded-full hover:bg-blue-800 transition duration-300"
+                  >
+                    <FaFacebook className="mr-2 text-lg" />
+                    Facebook
+                  </a>
+                  <a 
+                    href="https://twitter.com/pmbugua276"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-4 py-2 text-white bg-blue-400 rounded-full hover:bg-blue-500 transition duration-300"
+                  >
+                    <FaTwitter className="mr-2 text-lg" />
+                    Twitter
+                  </a>
+                  <a 
+                    href="https://www.linkedin.com/in/peter-mbugua-a6351a262"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-4 py-2 text-white bg-blue-800 rounded-full hover:bg-blue-900 transition duration-300"
+                  >
+                    <FaLinkedin className="mr-2 text-lg" />
+                    LinkedIn
+                  </a>
+                  <a 
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-4 py-2 text-white bg-pink-500 rounded-full hover:bg-pink-600 transition duration-300"
+                  >
+                    <FaInstagram className="mr-2 text-lg" />
+                    Instagram
+                  </a>
+                  
+                  {/* GitHub Button */}
+                  <a 
+                    href="https://github.com/P-Mbugua"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center px-4 py-2 text-white bg-gray-800 rounded-full hover:bg-gray-900 transition duration-300"
+                  >
+                    <FaGithub className="mr-2 text-lg" />
+                    GitHub
+                  </a>
+                </div>
               </div>
 
               {/* View CV Button */}

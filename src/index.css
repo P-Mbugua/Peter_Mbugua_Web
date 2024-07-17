@@ -91,3 +91,13 @@
     font-size: 1rem; /* Adjust font size for smaller screens */
   }
 }
+
+
+/* In your global CSS file or Tailwind CSS custom styles */
+.text-gradient {
+  background: linear-gradient(to right, #FF6F61, #D9A9FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

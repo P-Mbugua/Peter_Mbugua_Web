@@ -48,7 +48,7 @@ export default function Home() {
                 </a>
 
                 <a 
-                  href="https://www.facebook.com/[YourProfile]"
+                  href="https://www.fb.com/l/6lp1kJRRR"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-4 py-2 text-white bg-blue-700 rounded-full hover:bg-blue-800 transition duration-300"
@@ -57,7 +57,7 @@ export default function Home() {
                   Facebook
                 </a>
                 <a 
-                  href="https://twitter.com/[YourProfile]"
+                  href="https://twitter.com/pmbugua276"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-4 py-2 text-white bg-blue-400 rounded-full hover:bg-blue-500 transition duration-300"
@@ -66,7 +66,7 @@ export default function Home() {
                   Twitter
                 </a>
                 <a 
-                  href="https://www.linkedin.com/in/[YourProfile]"
+                  href="https://www.linkedin.com/in/peter-mbugua-a6351a262"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-4 py-2 text-white bg-blue-800 rounded-full hover:bg-blue-900 transition duration-300"
@@ -75,7 +75,7 @@ export default function Home() {
                   LinkedIn
                 </a>
                 <a 
-                  href="https://www.instagram.com/[YourProfile]"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-4 py-2 text-white bg-pink-500 rounded-full hover:bg-pink-600 transition duration-300"
@@ -86,7 +86,7 @@ export default function Home() {
                 
                 {/* GitHub Button */}
                 <a 
-                  href="https://github.com/[YourProfile]"
+                  href="https://github.com/P-Mbugua"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-4 py-2 text-white bg-gray-800 rounded-full hover:bg-gray-900 transition duration-300"

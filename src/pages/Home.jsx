@@ -5,7 +5,7 @@ import { FaWhatsapp, FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'reac
 
 export default function Home() {
   return (
-<div className="bg-gray-100 min-h-screen mt-24 sm:mt-16 md:mt-12 lg:mt-8 xl:mt-6 flex flex-col items-center justify-center relative overflow-hidden">
+    <div className="bg-gray-100 min-h-screen mt-24 sm:mt-16 md:mt-12 lg:mt-8 xl:mt-6 flex flex-col items-center justify-center relative overflow-hidden">
       <div className="w-full max-w-7xl px-4">
         {/* Home Card with Moving Welcome Text */}
         <div className="relative flex flex-col items-center p-4 md:p-8 bg-white shadow-xl rounded-xl mx-auto overflow-hidden">
@@ -17,12 +17,13 @@ export default function Home() {
           </div>
 
           <div className="pt-20 md:pt-24 flex flex-col md:flex-row items-center justify-center w-full z-10">
-            {/* Profile Photo */}
-            <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden mb-8 md:mb-0 md:mr-12">
+            {/* Profile Photo Container with Dark Background */}
+            <div className="w-48 h-48 md:w-64 md:h-64 relative rounded-full overflow-hidden mb-8 md:mb-0 md:mr-12 bg-gray-800 flex items-center justify-center">
+              <div className="absolute inset-0 bg-black opacity-50"></div>
               <img 
                 src="https://p-mbugua.github.io/Official-_Portfolio/peter.png" 
                 alt="Profile Photo" 
-                className="w-full h-full object-cover"
+                className="relative w-full h-full object-cover"
               />
             </div>
 
@@ -38,15 +39,15 @@ export default function Home() {
               
               {/* Social Media Buttons */}
               <div className="flex flex-wrap gap-3 md:gap-4 justify-center mb-6">
-              <a 
+                <a 
                   href="https://api.whatsapp.com/send?phone=0701571745&text=Hi%2C%20my%20name%20is%20Peter%20Mbugua.%20I%20would%20like%20to%20discuss%20something%20with%20you."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-3 py-2 text-white bg-green-500 rounded-full hover:bg-green-600 text-sm md:text-md"
-                  >
+                >
                   <FaWhatsapp className="mr-1 md:mr-2 text-lg md:text-xl" />
                   WhatsApp
-              </a>
+                </a>
 
                 <a 
                   href="https://www.facebook.com/[YourProfile]"

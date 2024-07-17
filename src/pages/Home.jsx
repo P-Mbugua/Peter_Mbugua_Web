@@ -4,7 +4,7 @@ import { FaWhatsapp, FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaGithub } 
 
 export default function Home() {
   return (
-    <div className="bg-gray-100 pb-2 mt-24 sm:mt-16 md:mt-12 lg:mt-8 xl:mt-6 flex flex-col items-center justify-center relative overflow-hidden px-4">
+    <div className="bg-gray-100 pt-4 pb-2 mt-24 sm:mt-16 md:mt-12 lg:mt-8 xl:mt-6 flex flex-col items-center justify-center relative overflow-hidden px-4">
       <div className="w-full max-w-7xl">
         {/* Home Card with Moving Welcome Text */}
         <div className="relative flex flex-col items-center p-2 md:p-4 lg:p-6 xl:p-8 bg-white shadow-2xl rounded-xl mx-auto overflow-hidden animate-fall-in">

@@ -46,7 +46,7 @@ export default function Header() {
       <nav className="container mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="text-white font-bold">
-          <Link to="/" className="text-white hover:text-gray-300 text-xl md:text-2xl lg:text-3xl">MyWebsite</Link>
+          <Link to="/" className="text-white hover:text-gray-300 text-xl md:text-2xl lg:text-3xl">Developer P.</Link>
         </div>
 
         {/* Navigation Links for larger screens */}

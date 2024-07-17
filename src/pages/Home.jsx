@@ -20,8 +20,8 @@ export default function Home() {
             {/* Profile Photo */}
             <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden mb-8 md:mb-0 md:mr-12">
               <img 
-                src="./src/assets/peter.png" 
-                alt="https://p-mbugua.github.io/Official-_Portfolio/peter.png" 
+                src="https://p-mbugua.github.io/Official-_Portfolio/peter.png" 
+                alt="Profile Photo" 
                 className="w-full h-full object-cover"
               />
             </div>

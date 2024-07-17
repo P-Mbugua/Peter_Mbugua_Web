@@ -30,7 +30,7 @@ export default function Home() {
             <div className="flex flex-col items-center md:items-start w-full">
               <p className="text-sm md:text-lg mb-6 leading-relaxed text-gray-800">
                 Hi, I'm Peter Mbugua, a Junior Software Engineer passionate about Developing cool and user friendly system. 
-                I thrive on working with [specific types of projects or technologies]. My background includes Website <Development></Development>.
+                I thrive on working with [specific types of projects or technologies]. My background includes Website Development.
               </p>
               <Link to="/more-about-me" className="inline-block px-6 md:px-8 py-2 md:py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 mb-6 text-sm md:text-lg">
                 Learn More About Me

@@ -1,6 +1,16 @@
-import React from 'react';
+// src/Footer.js
+
+import React, { useState } from 'react';
 
 export default function Footer() {
+  // State to manage the visibility of the license section
+  const [isLicenseVisible, setIsLicenseVisible] = useState(false);
+
+  // Toggle function to show/hide the license section
+  const toggleLicenseVisibility = () => {
+    setIsLicenseVisible(!isLicenseVisible);
+  };
+
   return (
     <footer className="bg-gray-900 text-white py-12">
       <div className="container mx-auto px-6 md:px-12 lg:px-24">
@@ -33,9 +43,47 @@ export default function Footer() {
             </a>
           </div>
         </div>
+
+        {/* License Section */}
+        <div className="text-center mt-8">
+          <button
+            onClick={toggleLicenseVisibility}
+            className="text-sm text-yellow-300 hover:underline"
+          >
+            {isLicenseVisible ? 'Hide License' : 'View License'}
+          </button>
+          {isLicenseVisible && (
+            <div className="mt-4 p-4 bg-gray-800 text-gray-200 rounded-lg">
+              <h3 className="text-lg font-bold mb-2">Personal Portfolio License Agreement</h3>
+              <p className="mb-2">Copyright 2024 spookeyy, skmutai6, P-Mbugua, SCARLET-SARAH</p>
+              <section className="mb-4">
+                <h4 className="font-semibold">Permission</h4>
+                <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+                <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+              </section>
+              <section className="mb-4">
+                <h4 className="font-semibold">Disclaimer</h4>
+                <p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+              </section>
+              <section>
+                <h4 className="font-semibold">Contact Information</h4>
+                <p>For any questions or concerns regarding this Agreement, please contact the Owner at:</p>
+                <p><strong>Your Full Name</strong><br/>
+                  Your Email Address<br/>
+                  Your Mailing Address
+                </p>
+                <p><strong>Your Full Name</strong><br/>
+                  Owner of <a href="https://yourportfolio.url" className="text-yellow-300 hover:underline">Your Portfolio</a><br/>
+                  <strong>Date:</strong> [Insert Date]</p>
+              </section>
+            </div>
+          )}
+        </div>
+
+        {/* Footer Bottom */}
         <div className="text-center mt-8">
           <p className="text-sm text-gray-400">
-            <a href="/LICENSE" className="hover:underline text-yellow-300">License</a> | &copy; 2024 Peter Mbugua. All rights reserved.
+            &copy; 2024 Peter Mbugua. All rights reserved.
           </p>
         </div>
       </div>

@@ -33,8 +33,8 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="p-6 bg-gray-100 min-h-screen">
-      <h2 className="text-4xl font-bold text-gray-800 mb-8 text-center">Skills & Expertise</h2>
+    <div className="p-6 bg-gray-100 min-h-screen ">
+      <h2 className="text-4xl font-bold text-gray-800 mb-8 text-center pt-14">Skills & Expertise</h2>
       
       {/* Introduction Section */}
       <p className="text-gray-600 mb-12 text-center text-lg">

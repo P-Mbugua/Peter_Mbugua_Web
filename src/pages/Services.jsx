@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Define your services with distinct background colors and text colors
 const services = [
   {
     title: 'Custom Web Development',
@@ -61,16 +62,16 @@ export default function Services() {
   return (
     <div className="container mx-auto px-4 py-8 pt-24">
       <header className="text-center mb-12">
-        <h1 className="text-5xl font-extrabold mb-4 text-gray-900">Explore My Services</h1>
+        <h1 className="text-5xl font-extrabold mb-4 text-gray-900">Explore Our Services</h1>
         <p className="text-lg text-gray-600">
-          Discover how I can help your business grow with my range of specialized services.
+          Discover how we can help your business grow with our range of specialized services.
         </p>
       </header>
       <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {services.map((service, index) => (
           <div
             key={index}
-            className={`bg-white border border-gray-200 rounded-lg shadow-lg p-6 ${service.color} ${service.textColor} transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl`}
+            className={`border border-gray-200 rounded-lg shadow-lg p-6 ${service.color} ${service.textColor} transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl`}
           >
             <h2 className="text-2xl font-semibold mb-2">{service.title}</h2>
             <p className="text-gray-700">{service.description}</p>

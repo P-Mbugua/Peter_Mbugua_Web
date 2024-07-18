@@ -2,73 +2,81 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="container xl:mt-20 pt-24 mx-auto px-6 py-12 bg-white rounded-lg shadow-lg max-w-4xl border border-gray-200">
-      <h1 className="text-4xl font-extrabold mb-6 text-gray-900">About Me</h1>
+    <div className="container mx-auto xl:mt-20 pt-24 px-6 py-12 bg-gray-50 rounded-lg shadow-lg max-w-4xl border border-gray-300">
+      {/* Main Title */}
+      <header className="mb-12 text-center">
+        <h1 className="text-4xl font-extrabold text-gray-900">About Me</h1>
+        <p className="mt-4 text-lg text-gray-700">
+          Hi there! I’m [Your Name], a dedicated software engineer with a deep-seated passion for building innovative and efficient web applications. My journey in technology has been fueled by a relentless curiosity and a drive to solve complex problems. With expertise in JavaScript, React, Node.js, and more, I strive to deliver robust solutions that make a tangible difference in the digital landscape.
+        </p>
+      </header>
 
-      <p className="mb-6 text-lg text-gray-800">
-        Hi there! I’m [Your Name], a dedicated software engineer with a deep-seated passion for building innovative and efficient web applications. My journey in technology has been fueled by a relentless curiosity and a drive to solve complex problems. With expertise in JavaScript, React, Node.js, and more, I strive to deliver robust solutions that make a tangible difference in the digital landscape.
-      </p>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-gray-900">Professional Experience</h2>
-        <p className="text-lg text-gray-700">
+      {/* Professional Experience */}
+      <section className="mb-12">
+        <h2 className="text-3xl font-semibold mb-4 text-gray-800 border-b-2 border-teal-400 pb-2">Professional Experience</h2>
+        <p className="text-lg text-gray-600 mb-4">
           Over the years, I’ve honed my skills through various roles in different environments. I’ve led development teams, architected scalable systems, and driven projects from conception to deployment. My experience includes:
         </p>
-        <ul className="list-disc list-inside space-y-2 text-gray-700 mt-4">
+        <ul className="list-disc list-inside space-y-2 text-gray-600">
           <li><strong>Lead Developer at [Company Name]</strong>: Spearheaded the development of a high-performance web application that increased user engagement by 30%.</li>
           <li><strong>Senior Software Engineer at [Company Name]</strong>: Managed a team of developers to build a cloud-based solution, resulting in a 50% reduction in operational costs.</li>
           <li><strong>Full-Stack Developer at [Company Name]</strong>: Developed and maintained multiple applications, optimizing code and enhancing functionality to meet evolving business needs.</li>
         </ul>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-gray-900">Achievements</h2>
-        <p className="text-lg text-gray-700">
+      {/* Achievements */}
+      <section className="mb-12">
+        <h2 className="text-3xl font-semibold mb-4 text-gray-800 border-b-2 border-teal-400 pb-2">Achievements</h2>
+        <p className="text-lg text-gray-600 mb-4">
           Throughout my career, I have achieved several milestones that reflect my commitment to excellence and innovation. Some of my key accomplishments include:
         </p>
-        <ul className="list-disc list-inside space-y-2 text-gray-700 mt-4">
+        <ul className="list-disc list-inside space-y-2 text-gray-600">
           <li><strong>Architected a High-Traffic E-Commerce Platform</strong>: Designed a scalable architecture that supports thousands of concurrent users, ensuring 99.9% uptime.</li>
           <li><strong>Open-Source Contribution</strong>: Played a pivotal role in the development of a popular open-source library, contributing features and bug fixes that significantly improved the tool.</li>
           <li><strong>Industry Recognition</strong>: Received the [Award Name] for outstanding contributions to web development and innovation in [Year].</li>
         </ul>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-gray-900">Personal Interests</h2>
-        <p className="text-lg text-gray-700">
+      {/* Personal Interests */}
+      <section className="mb-12">
+        <h2 className="text-3xl font-semibold mb-4 text-gray-800 border-b-2 border-teal-400 pb-2">Personal Interests</h2>
+        <p className="text-lg text-gray-600 mb-4">
           When I’m not coding, I enjoy engaging in activities that fuel my creativity and personal growth. Some of my interests include:
         </p>
-        <ul className="list-disc list-inside space-y-2 text-gray-700 mt-4">
+        <ul className="list-disc list-inside space-y-2 text-gray-600">
           <li><strong>Technology Exploration</strong>: I am always eager to explore new technologies and frameworks, and I love experimenting with emerging tools to stay ahead in the tech world.</li>
           <li><strong>Community Involvement</strong>: Actively participate in tech meetups, hackathons, and contribute to local tech communities. Sharing knowledge and learning from others is something I value deeply.</li>
           <li><strong>Hobbies</strong>: In my free time, I enjoy reading tech blogs, traveling to new places, and practicing photography to capture the beauty of the world around me.</li>
         </ul>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-gray-900">Values & Philosophy</h2>
-        <p className="text-lg text-gray-700">
+      {/* Values & Philosophy */}
+      <section className="mb-12">
+        <h2 className="text-3xl font-semibold mb-4 text-gray-800 border-b-2 border-teal-400 pb-2">Values & Philosophy</h2>
+        <p className="text-lg text-gray-600 mb-4">
           My work is guided by a set of core values and principles:
         </p>
-        <ul className="list-disc list-inside space-y-2 text-gray-700 mt-4">
+        <ul className="list-disc list-inside space-y-2 text-gray-600">
           <li><strong>Commitment to Quality</strong>: I believe in delivering high-quality code and solutions that not only meet but exceed expectations.</li>
           <li><strong>Continuous Learning</strong>: Embracing a mindset of lifelong learning helps me stay current with industry trends and enhances my problem-solving abilities.</li>
           <li><strong>Collaboration</strong>: Effective teamwork and open communication are essential for success. I value collaboration and strive to create an environment where ideas can flourish.</li>
         </ul>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 text-gray-900">Future Goals</h2>
-        <p className="text-lg text-gray-700">
+      {/* Future Goals */}
+      <section className="mb-12">
+        <h2 className="text-3xl font-semibold mb-4 text-gray-800 border-b-2 border-teal-400 pb-2">Future Goals</h2>
+        <p className="text-lg text-gray-600 mb-4">
           Looking ahead, I am excited about the future and the possibilities it holds. My goals include:
         </p>
-        <ul className="list-disc list-inside space-y-2 text-gray-700 mt-4">
+        <ul className="list-disc list-inside space-y-2 text-gray-600">
           <li><strong>Innovation</strong>: To continue exploring and implementing innovative solutions that push the boundaries of technology.</li>
           <li><strong>Leadership</strong>: To take on more leadership roles, mentoring and guiding the next generation of developers to achieve their full potential.</li>
           <li><strong>Personal Growth</strong>: To maintain a balance between personal and professional growth, ensuring a fulfilling and rewarding career journey.</li>
         </ul>
       </section>
 
+      {/* Call to Action */}
       <div className="text-center mt-8">
         <a
           href="mailto:example@example.com"
@@ -82,3 +90,6 @@ const About = () => {
 };
 
 export default About;
+
+
+

@@ -6,7 +6,7 @@ const technicalSkillsData = [
   { name: 'React', level: 85 },
   { name: 'CSS', level: 80 },
   { name: 'HTML', level: 75 },
-  { name: 'Node.js', level: 70 }
+  { name: 'Python', level: 70 }
 ];
 
 const softSkillsData = [

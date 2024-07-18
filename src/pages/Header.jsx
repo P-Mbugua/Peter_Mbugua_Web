@@ -53,17 +53,20 @@ const Header = () => {
 
   // Component for Search Form
   const SearchForm = ({ query, setQuery, handleSearch }) => (
-    <form onSubmit={handleSearch} className="flex items-center bg-gray-200 rounded-lg overflow-hidden ml-4">
+    <form
+      onSubmit={handleSearch}
+      className="flex items-center bg-gray-200 rounded-lg overflow-hidden"
+    >
       <input
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder="Search..."
-        className="pl-4 pr-8 py-2 rounded-l-md bg-gray-200 text-gray-800 border border-gray-300 focus:outline-none focus:border-blue-500 w-64"
+        className="pl-3 pr-4 py-1 text-sm rounded-l-md bg-gray-200 text-gray-800 border border-gray-300 focus:outline-none focus:border-blue-500 w-full sm:w-40 md:w-48"
       />
       <button
         type="submit"
-        className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-r-md border border-blue-600"
+        className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold py-1 px-3 rounded-r-md border border-blue-600"
       >
         Search
       </button>
@@ -171,7 +174,7 @@ const Header = () => {
           </button>
         </div>
 
-        {/* Search Form */}
+        {/* Search Form for larger screens */}
         <div className="hidden md:flex items-center">
           <SearchForm query={query} setQuery={setQuery} handleSearch={handleSearch} />
         </div>

@@ -79,19 +79,20 @@ export default function Contact() {
         <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
           <h2 className="text-2xl font-semibold text-gray-800 mb-6">Find Me Here</h2>
           <p className="text-gray-600 mb-4">
-            I’m based in the heart of downtown [Your City]. Feel free to visit or get in touch via the form. The area is bustling with vibrant spots, making it easy to find something interesting nearby.
+            I’m based in the heart of downtown Kiambu. Feel free to visit or get in touch via the form. The area is bustling with vibrant spots, making it easy to find something interesting nearby.
           </p>
           <div className="relative overflow-hidden rounded-lg shadow-md">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.1573699828303!2d-122.4194186846812!3d37.77492977975955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808e9e3b4f2d%3A0x7b9b973f5d54adf2!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1628707914630!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.972422366533!2d36.82194631545007!3d-1.2920653263993303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f176b5c1d324d%3A0xa679f59c5e9316f0!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2s!4v1628710409342!5m2!1sen!2s"
               width="100%"
-              height="400"  // Fixed height for better visibility
+              height="400" // Adjust height as needed for visibility
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"
-              title="Google Map"
+              title="Google Map of My Current Location"
             ></iframe>
           </div>
+
         </div>
       </div>
     </div>

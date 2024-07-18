@@ -27,22 +27,33 @@ export default function Home() {
 
             {/* Description and Buttons */}
             <div className="flex flex-col items-center md:items-start w-full text-center md:text-left">
-              <p className="text-xs md:text-sm lg:text-base xl:text-lg mb-2 md:mb-4 lg:mb-6 xl:mb-8 leading-relaxed text-gray-800 animate-fall-in">
-                Hi, I'm Peter Mbugua, a Junior Software Engineer passionate about developing cool and user-friendly systems. 
-                I thrive on working with Software Applications | Websites Developing & Graphics Design. My background includes website development.
-              </p>
-              <Link to="/more-about-me" className="inline-block px-4 py-2 text-white bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105 text-xs md:text-sm lg:text-base xl:text-lg animate-fall-in">
+            <p className="text-sm md:text-base lg:text-lg xl:text-xl mb-4 md:mb-6 lg:mb-8 leading-relaxed text-gray-800 animate-fade-in">
+                Hello, I'm Peter Mbugua, a Junior Software Engineer passionate about crafting innovative and
+                 user-friendly systems. With expertise in Full Stack Development, Software Applications, 
+                 Website Development, and Graphic Design, I thrive on creating seamless digital experiences 
+                 that marry functionality with aesthetics. Let's collaborate and build something amazing
+                 together!
+            </p>
+
+            <Link
+                to="/more-about-me"
+                className="inline-block px-4 py-2 text-white bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-transform duration-300 text-xs md:text-sm lg:text-base xl:text-lg animate-fall-in"
+                style={{ textDecoration: 'none' }} // Ensure the link text decoration is removed
+                 >
                 Learn More About Me
-              </Link>
+            </Link>
+
               
               {/* Social Media Section */}
-              <div className="w-full text-center mb-4 md:mb-6 lg:mb-8 xl:mb-10">
+              <div className="w-full text-center pt-10 mb-4 md:mb-6 lg:mb-8 xl:mb-10">
                 <h2 className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold text-gradient mb-2 animate-fall-in">
                   Connect with me on my social accounts
                 </h2>
-                <p className="text-xs md:text-sm lg:text-base xl:text-lg text-gray-600 mb-4 md:mb-6 lg:mb-8 xl:mb-10 animate-fall-in">
-                  Make your life easier with better codings and stay updated with my latest work!
+                <p className="text-sm md:text-base lg:text-lg xl:text-xl text-gray-700 leading-relaxed mb-4 md:mb-6 lg:mb-8 xl:mb-10 animate-fade-in">
+                  Explore advanced coding techniques and stay updated on my latest projects. Let's
+                   collaborate and innovate together!
                 </p>
+
 
                 {/* Social Media Buttons */}
                 <div className="flex flex-wrap gap-2 md:gap-4 justify-center md:justify-start">
@@ -108,10 +119,10 @@ export default function Home() {
 
               {/* View CV Button */}
               <a 
-                href="https://drive.google.com/file/d/1MwyqRGN-Qr-UH_oMc7gJP7b7t8QidfsV/view" // Adjust the URL to your actual CV file path
-                target="_blank" // Opens the link in a new tab
-                rel="noopener noreferrer" // Security measure
-                className="inline-block px-4 py-2 text-white bg-gray-800 rounded-lg hover:bg-gray-900 transition duration-300 text-xs md:text-sm lg:text-base xl:text-lg animate-fall-in"
+                href="https://drive.google.com/file/d/1MwyqRGN-Qr-UH_oMc7gJP7b7t8QidfsV/view"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-4 py-2 text-white bg-blue-600 rounded-full hover:bg-blue-700 transition duration-300 text-xs md:text-sm lg:text-base xl:text-lg animate-fall-in"
               >
                 View CV
               </a>

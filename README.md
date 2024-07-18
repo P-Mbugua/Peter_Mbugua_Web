@@ -21,7 +21,7 @@ Here are some of the notable projects I've worked on:
 
 ### Hotel Management System https://github.com/spookeyy/stayManager.git
 * **Description**: A brief overview of what the project is about.
-* **Technologies**: List of technologies used.
+* **Technologies**: Python, React, SQLAlchemy, Tailwind CSS, SQL Lite.
 * **Features**: Key features and functionalities.
 * **Link**: [Live Demo](link-to-demo) | [Source Code](link-to-source-code)
 
@@ -37,11 +37,11 @@ Here are some of the notable projects I've worked on:
 
 I have experience with the following technologies and tools:
 
-- **Programming Languages**: [e.g., Python, JavaScript, Java]
-- **Web Technologies**: [e.g., HTML, CSS, React, Angular]
-- **Backend Technologies**: [e.g., Node.js, Express, Django]
-- **Databases**: [e.g., MySQL, MongoDB, PostgreSQL]
-- **Tools & Platforms**: [e.g., Git, Docker, AWS]
+- **Programming Languages**: Python, JavaScript.
+- **Web Technologies**:  HTML, CSS, React.
+- **Backend Technologies**: SQLAlchemy.
+- **Databases**: MySQL.
+- **Tools & Platforms**:  Git.
 
 ## Experience
 
@@ -69,14 +69,14 @@ I have experience with the following technologies and tools:
 
 Feel free to reach out to me through any of the following methods:
 
-- **Email**: [your-email@example.com]
-- **LinkedIn**: [LinkedIn Profile](link-to-your-linkedin)
-- **GitHub**: [GitHub Profile](link-to-your-github)
-- **Portfolio Website**: [Personal Website](link-to-your-website)
+- **Email**: pmbugua276@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/peter-mbugua-a6351a262
+- **GitHub**: https://github.com/P-Mbugua
+- **Portfolio Website**: https://developerp.netlify.app/
 
 Thank you for visiting my portfolio. I look forward to connecting with you!
 
 ---
 
-*Created by [Your Name] - [Year]*
+*Created by Mbugua Peter - 2024*
 

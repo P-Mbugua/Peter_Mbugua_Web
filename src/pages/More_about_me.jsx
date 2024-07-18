@@ -9,18 +9,18 @@ export default function More_about_me() {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-8 bg-white rounded-2xl shadow-2xl border border-gray-300">
+    <div className="max-w-4xl pt-17 mx-auto p-8 bg-white rounded-2xl shadow-2xl border border-gray-300">
       <h1 className="text-4xl font-bold text-center mb-10 text-blue-900 border-b-4 border-blue-500 pb-4">More About Me</h1>
 
       {/* Personal Details Section */}
       <section className="mb-10">
         <h2 className="text-3xl font-semibold text-blue-800 mb-6 border-b-2 border-blue-300 pb-2">Personal Details</h2>
         <div className="bg-gray-50 p-6 rounded-lg shadow-md border border-gray-200 space-y-4">
-          <p className="text-lg text-gray-800"><strong className="text-blue-800">Age:</strong> <span className="font-semibold">[Your Age]</span></p>
-          <p className="text-lg text-gray-800"><strong className="text-blue-800">Gender:</strong> <span className="font-semibold">[Your Gender]</span></p>
-          <p className="text-lg text-gray-800"><strong className="text-blue-800">Phone:</strong> <span className="font-semibold">[Your Phone Number]</span></p>
-          <p className="text-lg text-gray-800"><strong className="text-blue-800">Experience:</strong> <span className="font-semibold">[Years of Experience]</span> years</p>
-          <p className="text-lg text-gray-800"><strong className="text-blue-800">Others:</strong> <span className="font-semibold">[Other Relevant Information]</span></p>
+          <p className="text-lg text-gray-800"><strong className="text-blue-800">Age:</strong> <span className="font-semibold">21</span></p>
+          <p className="text-lg text-gray-800"><strong className="text-blue-800">Gender:</strong> <span className="font-semibold">Male</span></p>
+          <p className="text-lg text-gray-800"><strong className="text-blue-800">Phone:</strong> <span className="font-semibold">+254701571745</span></p>
+          <p className="text-lg text-gray-800"><strong className="text-blue-800">Experience:</strong> <span className="font-semibold">1 </span> Year</p>
+          <p className="text-lg text-gray-800"><strong className="text-blue-800">Others:</strong> <span className="font-semibold">Graphics Designer</span></p>
         </div>
       </section>
 
@@ -28,7 +28,7 @@ export default function More_about_me() {
       <section className="mb-10">
         <h2 className="text-3xl font-semibold text-blue-800 mb-6 border-b-2 border-blue-300 pb-2">My Background</h2>
         <p className="text-lg leading-relaxed text-gray-800">
-          I am a dedicated and enthusiastic <span className="font-semibold text-blue-800">[Your Profession]</span> with a strong background in <span className="font-semibold text-blue-800">[Your Field or Industry]</span>. After earning my degree in <span className="font-semibold text-blue-800">[Your Degree]</span> from <span className="font-semibold text-blue-800">[Your University]</span>, I have spent the last <span className="font-semibold text-blue-800">[Number]</span> years working in various roles that have allowed me to hone my skills in <span className="font-semibold text-blue-800">[Specific Skills or Technologies]</span>.
+          I am a dedicated and enthusiastic <span className="font-semibold text-blue-800">Software Engineer | Graphics Designer</span> with a strong background in <span className="font-semibold text-blue-800">Developing Websites & Application</span>. After earning my Post-Graduate in <span className="font-semibold text-blue-800">Software Engineering</span> from <span className="font-semibold text-blue-800">Moringa School</span>, I have spent the last <span className="font-semibold text-blue-800">1</span> years working in various roles that have allowed me to hone my skills in <span className="font-semibold text-blue-800">[Specific Skills or Technologies]</span>.
         </p>
       </section>
 

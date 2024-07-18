@@ -29,7 +29,7 @@ export default function Home() {
             <div className="flex flex-col items-center md:items-start w-full text-center md:text-left">
               <p className="text-xs md:text-sm lg:text-base xl:text-lg mb-2 md:mb-4 lg:mb-6 xl:mb-8 leading-relaxed text-gray-800 animate-fall-in">
                 Hi, I'm Peter Mbugua, a Junior Software Engineer passionate about developing cool and user-friendly systems. 
-                I thrive on working with [specific types of projects or technologies]. My background includes website development.
+                I thrive on working with Software Applications | Websites Developing & Graphics Design. My background includes website development.
               </p>
               <Link to="/more-about-me" className="inline-block px-4 py-2 text-white bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg shadow-lg hover:shadow-xl transition-transform transform hover:scale-105 text-xs md:text-sm lg:text-base xl:text-lg animate-fall-in">
                 Learn More About Me

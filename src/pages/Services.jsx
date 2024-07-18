@@ -66,11 +66,11 @@ export default function Services() {
           Discover how I can help your business grow with my range of specialized services.
         </p>
       </header>
-      <section className="flex flex-wrap gap-8 justify-center">
+      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {services.map((service, index) => (
           <div
             key={index}
-            className={`bg-white border border-gray-200 rounded-lg shadow-lg p-6 max-w-sm w-full ${service.color} ${service.textColor} transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl`}
+            className={`bg-white border border-gray-200 rounded-lg shadow-lg p-6 ${service.color} ${service.textColor} transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl`}
           >
             <h2 className="text-2xl font-semibold mb-2">{service.title}</h2>
             <p className="text-gray-700">{service.description}</p>

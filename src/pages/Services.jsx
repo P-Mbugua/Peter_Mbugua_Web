@@ -61,9 +61,9 @@ export default function Services() {
   return (
     <div className="container mx-auto px-4 py-8 pt-24">
       <header className="text-center mb-12">
-        <h1 className="text-5xl font-extrabold mb-4 text-gray-900">Explore Our Services</h1>
+        <h1 className="text-5xl font-extrabold mb-4 text-gray-900">Explore My Services</h1>
         <p className="text-lg text-gray-600">
-          Discover how we can help your business grow with our range of specialized services.
+          Discover how I can help your business grow with my range of specialized services.
         </p>
       </header>
       <section className="flex flex-wrap gap-8 justify-center">

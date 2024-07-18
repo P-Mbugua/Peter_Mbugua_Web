@@ -107,7 +107,6 @@ const NavItem = ({ to, label }) => (
     {label}
   </Link>
 );
-
 // Component for Search Form
 const SearchForm = ({ query, setQuery, handleSearch }) => (
   <form onSubmit={handleSearch} className="flex items-center bg-gray-200 rounded-lg overflow-hidden ml-4">
@@ -116,11 +115,12 @@ const SearchForm = ({ query, setQuery, handleSearch }) => (
       value={query}
       onChange={(e) => setQuery(e.target.value)}
       placeholder="Search..."
-      className="pl-4 pr-8 py-2 rounded-l-md bg-gray-200 text-gray-800 border border-gray-300 focus:outline-none focus:border-blue-500 w-64"
+      className="pl-4 pr-8 py-2 rounded-l-md bg-gray-200 text-gray-800 border border-gray-300 focus:outline-none focus:border-blue-500 flex-grow"
     />
     <button
       type="submit"
       className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-r-md border border-blue-600"
+      style={{ minWidth: "auto" }} // Ensure button adjusts width responsively
     >
       Search
     </button>

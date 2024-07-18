@@ -62,9 +62,13 @@ export default function Services() {
   return (
     <div className="container mx-auto px-4 py-8 pt-24">
       <header className="text-center mb-12">
-        <h1 className="text-5xl font-extrabold mb-4 text-gray-900">Explore Our Services</h1>
-        <p className="text-lg text-gray-600">
-          Discover how we can help your business grow with our range of specialized services.
+        <div className="bg-gradient-to-r from-blue-500 via-purple-600 to-pink-500 p-1 rounded-full inline-block">
+          <h1 className="text-4xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-red-500 to-pink-600 mb-4">
+            My Expertise
+          </h1>
+        </div>
+        <p className="text-lg md:text-xl text-gray-700 mx-auto max-w-2xl">
+          As a passionate developer, I offer a range of specialized services to help you achieve your goals and elevate your projects.
         </p>
       </header>
       <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

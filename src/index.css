@@ -128,3 +128,9 @@
   opacity: 0;
   animation: fallIn 6s ease-out forwards;
 }
+
+
+/* Custom text shadow class */
+.text-shadow-lg {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

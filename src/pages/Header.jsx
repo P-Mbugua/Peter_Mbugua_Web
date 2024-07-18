@@ -52,25 +52,23 @@ const Header = () => {
   );
 
   // Component for Search Form
-  const SearchForm = ({ query, setQuery, handleSearch }) => (
-    <form
-      onSubmit={handleSearch}
-      className="flex items-center bg-gray-200 rounded-lg overflow-hidden"
-    >
+  const SearchForm = ({ query, setQuery, handleSearch, small }) => (
+    <form onSubmit={handleSearch} className={`flex items-center ${small ? 'justify-start' : 'ml-4'} bg-gray-200 rounded-lg overflow-hidden`}>
       <input
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder="Search..."
-        className="pl-3 pr-4 py-1 text-sm rounded-l-md bg-gray-200 text-gray-800 border border-gray-300 focus:outline-none focus:border-blue-500 w-full sm:w-40 md:w-48"
+        className={`pl-4 pr-8 py-2 rounded-l-md bg-gray-200 text-gray-800 border border-gray-300 focus:outline-none focus:border-blue-500 ${small ? 'w-48' : 'w-64'}`}
       />
       <button
         type="submit"
-        className="bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold py-1 px-3 rounded-r-md border border-blue-600"
+        className={`bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold py-1 px-3 rounded-r-md border border-blue-600 ${small ? 'ml-2' : ''}`}
       >
         Search
       </button>
     </form>
+
   );
 
   // Component for Mobile Menu
@@ -90,7 +88,7 @@ const Header = () => {
         )}
 
         {/* Search Form for mobile screens */}
-        <div className="mt-6">
+        <div className="mt-8">
           <SearchForm query={query} setQuery={setQuery} handleSearch={handleSearch} />
         </div>
 

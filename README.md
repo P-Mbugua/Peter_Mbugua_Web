@@ -1,4 +1,4 @@
-# Personal Portfolio of [Your Name]
+# Personal Portfolio of Peter Mbugua
 
 Welcome to my personal portfolio! Here you'll find a showcase of my work, skills, and projects as a software engineer. This portfolio includes various projects I've worked on, technical skills I've acquired, and information about my professional background.
 
@@ -13,13 +13,13 @@ Welcome to my personal portfolio! Here you'll find a showcase of my work, skills
 
 ## About Me
 
-Hello! I'm [Your Name], a passionate software engineer with experience in [list a few key technologies or fields you specialize in, e.g., web development, machine learning, etc.]. I have a strong foundation in [mention key programming languages or tools] and am always eager to learn and take on new challenges.
+Hello! I'm Peter, a passionate software engineer with experience in Software Engineering | Graphics Design | Project Management | Office Assistant. I have a strong foundation in HTML5, CSS, Javascript, React, Tailwind CSS, Python & SQLite and am always eager to learn and take on new challenges.
 
 ## Projects
 
 Here are some of the notable projects I've worked on:
 
-### [Project Name 1](link-to-project)
+### Hotel Management System https://github.com/spookeyy/stayManager.git
 * **Description**: A brief overview of what the project is about.
 * **Technologies**: List of technologies used.
 * **Features**: Key features and functionalities.

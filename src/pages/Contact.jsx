@@ -6,13 +6,13 @@ export default function Contact() {
       {/* Title and Subtitle */}
       <div className="text-center bg-indigo-50 p-6 rounded-lg shadow-sm border border-indigo-200 mb-12">
         <h1 className="text-3xl font-extrabold text-gray-800 mb-2">
-          Get in Touch
+          Get in Touch with Me
         </h1>
         <p className="text-lg text-gray-600 mb-4">
-          We’d love to hear from you! Whether you have questions, feedback, or just want to say hi, we are here to assist you.
+          I’d love to hear from you! Whether you have questions, feedback, or just want to chat, I’m here to help.
         </p>
         <p className="text-sm text-gray-500 italic">
-          Our team is committed to providing prompt and helpful responses. Your message is important to us.
+          I’m committed to responding promptly and thoughtfully. Your message is valuable to me.
         </p>
       </div>
 
@@ -20,7 +20,7 @@ export default function Contact() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         {/* Contact Form */}
         <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-6">Contact Form</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 mb-6">Drop Me a Message</h2>
           <form className="space-y-6">
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700">
@@ -69,7 +69,7 @@ export default function Contact() {
                 type="submit"
                 className="inline-flex items-center px-6 py-3 border border-transparent text-base font-semibold rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-300 ease-in-out"
               >
-                Send
+                Send Message
               </button>
             </div>
           </form>
@@ -77,10 +77,9 @@ export default function Contact() {
 
         {/* Location and Map */}
         <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-6">Find Us</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 mb-6">Find Me Here</h2>
           <p className="text-gray-600 mb-4">
-            Our office is located in the heart of downtown, offering easy access and a central location. 
-            We are surrounded by vibrant amenities, making it convenient for you to visit us.
+            I’m based in the heart of downtown [Your City]. Feel free to visit or get in touch via the form. The area is bustling with vibrant spots, making it easy to find something interesting nearby.
           </p>
           <div className="relative overflow-hidden rounded-lg shadow-md">
             <iframe

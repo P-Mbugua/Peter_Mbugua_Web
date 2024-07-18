@@ -79,7 +79,7 @@ const About = () => {
       {/* Call to Action */}
       <div className="text-center mt-8">
         <a
-          href="mailto:example@example.com"
+          href="mailto:pmbugua276@gmail.com"
           className="bg-teal-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-teal-600 transition duration-300"
         >
           Get in Touch

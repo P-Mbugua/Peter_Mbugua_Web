@@ -7,7 +7,7 @@ const About = () => {
       <header className="mb-12 text-center">
         <h1 className="text-4xl font-extrabold text-gray-900">About Me</h1>
         <p className="mt-4 text-lg text-gray-700">
-          Hi there! I’m [Your Name], a dedicated software engineer with a deep-seated passion for building innovative and efficient web applications. My journey in technology has been fueled by a relentless curiosity and a drive to solve complex problems. With expertise in JavaScript, React, Node.js, and more, I strive to deliver robust solutions that make a tangible difference in the digital landscape.
+          Hi there! I’m Peter Mbugua, a dedicated Junior software engineer with a deep-seated passion for building innovative and efficient web applications. My journey in technology has been fueled by a relentless curiosity and a drive to solve complex problems. With expertise in JavaScript, React, Python and more, I strive to deliver robust solutions that make a tangible difference in the digital landscape.
         </p>
       </header>
 
@@ -15,12 +15,12 @@ const About = () => {
       <section className="mb-12">
         <h2 className="text-3xl font-semibold mb-4 text-gray-800 border-b-2 border-teal-400 pb-2">Professional Experience</h2>
         <p className="text-lg text-gray-600 mb-4">
-          Over the years, I’ve honed my skills through various roles in different environments. I’ve led development teams, architected scalable systems, and driven projects from conception to deployment. My experience includes:
+          Over the time, I’ve honed my skills through various roles in different environments. I’ve led development teams, architected scalable systems, and driven projects from conception to deployment. My experience includes:
         </p>
         <ul className="list-disc list-inside space-y-2 text-gray-600">
-          <li><strong>Lead Developer at [Company Name]</strong>: Spearheaded the development of a high-performance web application that increased user engagement by 30%.</li>
-          <li><strong>Senior Software Engineer at [Company Name]</strong>: Managed a team of developers to build a cloud-based solution, resulting in a 50% reduction in operational costs.</li>
-          <li><strong>Full-Stack Developer at [Company Name]</strong>: Developed and maintained multiple applications, optimizing code and enhancing functionality to meet evolving business needs.</li>
+          <li><strong>Lead Developer at School Groups</strong>: Spearheaded the development of a high-performance web application that increased user engagement by 30%.</li>
+          <li><strong>Junior Software Engineer at Techran</strong>: Managed a team of developers to build a cloud-based solution, resulting in a 50% reduction in operational costs.</li>
+          <li><strong>Full-Stack Developer at Hexaq</strong>: Developed and maintained multiple applications, optimizing code and enhancing functionality to meet evolving business needs.</li>
         </ul>
       </section>
 
@@ -31,9 +31,9 @@ const About = () => {
           Throughout my career, I have achieved several milestones that reflect my commitment to excellence and innovation. Some of my key accomplishments include:
         </p>
         <ul className="list-disc list-inside space-y-2 text-gray-600">
-          <li><strong>Architected a High-Traffic E-Commerce Platform</strong>: Designed a scalable architecture that supports thousands of concurrent users, ensuring 99.9% uptime.</li>
+          <li><strong>Architected a High-Traffic E-Commerce Platform</strong>: Designed a scalable architecture that supports concurrent users, ensuring 99.9% uptime.</li>
           <li><strong>Open-Source Contribution</strong>: Played a pivotal role in the development of a popular open-source library, contributing features and bug fixes that significantly improved the tool.</li>
-          <li><strong>Industry Recognition</strong>: Received the [Award Name] for outstanding contributions to web development and innovation in [Year].</li>
+          <li><strong>Industry Recognition</strong>: Received the Awards  for outstanding contributions to web development and innovation in 2024.</li>
         </ul>
       </section>
 

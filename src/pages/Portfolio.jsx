@@ -4,28 +4,16 @@ export default function Portfolio() {
   const [showContactForm, setShowContactForm] = useState(false);
 
   return (
-    <div className="bg-gray-100 min-h-screen">
+    <div className="bg-gray-100 py-12  sm:mt-7 ">
       {/* Header Section */}
       <header className="bg-white shadow-md">
-        <div className="max-w-7xl mx-auto px-6 py-12">
-          <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-4 text-center">
-            My Portfolio
-          </h1>
-          <p className="text-xl md:text-2xl text-gray-600 text-center">
-            Showcasing my skills and projects to demonstrate my capabilities in web development and design.
-          </p>
-        </div>
-      </header>
-
-      {/* Projects Overview Section */}
-      <section className="py-12 md:py-16">
-        <div className="max-w-5xl mx-auto px-6 text-center">
+      <div className="max-w-5xl mx-auto px-6 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Project Highlights</h2>
           <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
             Explore a selection of projects that highlight my expertise in web development and design. These projects demonstrate my ability to create innovative and user-focused solutions.
           </p>
         </div>
-      </section>
+      </header>
 
       {/* Projects Section */}
       <section className="bg-white py-12 md:py-16">
@@ -37,25 +25,37 @@ export default function Portfolio() {
                 title: "Project One",
                 description: "A dynamic web application built with React and Node.js, offering real-time data updates and a seamless user interface.",
                 link: "https://example.com/project-one",
-                imgSrc: "https://via.placeholder.com/500x300"
+                imgSrc: "src/assets/hotel.png"
               },
               {
                 title: "Project Two",
                 description: "An e-commerce platform featuring custom backend and frontend with advanced authentication and payment integration.",
                 link: "https://example.com/project-two",
-                imgSrc: "https://via.placeholder.com/500x300"
+                imgSrc: "src/assets/hotel.png"
               },
               {
                 title: "Project Three",
                 description: "A mobile-friendly application with responsive design and enhanced user accessibility, designed for collaborative use.",
                 link: "https://example.com/project-three",
-                imgSrc: "https://via.placeholder.com/500x300"
+                imgSrc: "src/assets/hotel.png"
               },
               {
                 title: "Project Four",
                 description: "A real-time chat application utilizing WebSocket technology for instant messaging, ensuring a smooth user experience.",
                 link: "https://example.com/project-four",
-                imgSrc: "https://via.placeholder.com/500x300"
+                imgSrc: "src/assets/hotel.png"
+              },
+              {
+                title: "Project Four",
+                description: "A real-time chat application utilizing WebSocket technology for instant messaging, ensuring a smooth user experience.",
+                link: "https://example.com/project-four",
+                imgSrc: "src/assets/hotel.png"
+              },
+              {
+                title: "Project Four",
+                description: "A real-time chat application utilizing WebSocket technology for instant messaging, ensuring a smooth user experience.",
+                link: "https://example.com/project-four",
+                imgSrc: "src/assets/hotel.png"
               }
             ].map((project, index) => (
               <div
@@ -98,7 +98,7 @@ export default function Portfolio() {
             onClick={() => setShowContactForm(true)}
             className="inline-flex items-center px-6 py-3 border border-transparent text-lg font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-transform transform hover:scale-105"
           >
-            Open Contact Form
+          Contact Me
           </button>
           {showContactForm && (
             <div className="fixed inset-0 flex items-center justify-center z-50 bg-gray-900 bg-opacity-50">

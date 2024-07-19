@@ -28,7 +28,7 @@ export default function More_about_me() {
       <section className="mb-10">
         <h2 className="text-3xl font-semibold text-blue-800 mb-6 border-b-2 border-blue-300 pb-2">My Background</h2>
         <p className="text-lg leading-relaxed text-gray-800">
-          I am a dedicated and enthusiastic <span className="font-semibold text-blue-800">Software Engineer | Graphics Designer</span> with a strong background in <span className="font-semibold text-blue-800">Developing Websites & Application</span>. After earning my Post-Graduate in <span className="font-semibold text-blue-800">Software Engineering</span> from <span className="font-semibold text-blue-800">Moringa School</span>, I have spent the last <span className="font-semibold text-blue-800">1</span> years working in various roles that have allowed me to hone my skills in <span className="font-semibold text-blue-800">[Specific Skills or Technologies]</span>.
+          I am a dedicated and enthusiastic <span className="font-semibold text-blue-800">Software Engineer | Graphics Designer</span> with a strong background in <span className="font-semibold text-blue-800">Developing Websites & Application</span>. After earning my Post-Graduate in <span className="font-semibold text-blue-800">Software Engineering</span> from <span className="font-semibold text-blue-800">Moringa School</span>, I have spent the last <span className="font-semibold text-blue-800">1</span> years working in various roles that have allowed me to hone my skills in <span className="font-semibold text-blue-800">Website Development | Design.</span>.
         </p>
       </section>
 
@@ -37,12 +37,12 @@ export default function More_about_me() {
         <h2 className="text-3xl font-semibold text-blue-800 mb-6 border-b-2 border-blue-300 pb-2">Education</h2>
         <ul className="list-disc pl-5 text-lg text-gray-800 space-y-4">
           <li>
-            <strong className="text-blue-800">[Degree]</strong> in <span className="font-semibold">[Field of Study]</span> - <span className="font-semibold text-blue-800">[University Name]</span> (<span className="font-semibold text-blue-800">[Year]</span>)
-            <p className="mt-1 text-sm text-gray-600">Relevant coursework: <span className="font-semibold text-blue-800">[Coursework or Specialization]</span></p>
+            <strong className="text-blue-800">Post Graduate</strong> in <span className="font-semibold">Fullstack Development</span> - <span className="font-semibold text-blue-800">Moringa School</span> (<span className="font-semibold text-blue-800">2024.</span>)
+            <p className="mt-1 text-sm text-gray-600">Relevant coursework: <span className="font-semibold text-blue-800">Development of Softwares.</span></p>
           </li>
           <li>
-            <strong className="text-blue-800">[Degree]</strong> in <span className="font-semibold">[Field of Study]</span> - <span className="font-semibold text-blue-800">[University Name]</span> (<span className="font-semibold text-blue-800">[Year]</span>)
-            <p className="mt-1 text-sm text-gray-600">Relevant coursework: <span className="font-semibold text-blue-800">[Coursework or Specialization]</span></p>
+            <strong className="text-blue-800">Certficate </strong> in <span className="font-semibold">Website Development</span> - <span className="font-semibold text-blue-800">Moringa School</span> (<span className="font-semibold text-blue-800">2023.</span>)
+            <p className="mt-1 text-sm text-gray-600">Relevant coursework: <span className="font-semibold text-blue-800">Website Design | Design.</span></p>
           </li>
         </ul>
       </section>
@@ -52,12 +52,12 @@ export default function More_about_me() {
         <h2 className="text-3xl font-semibold text-blue-800 mb-6 border-b-2 border-blue-300 pb-2">Professional Experience</h2>
         <div className="space-y-8">
           <div className="bg-gray-50 p-6 rounded-lg shadow-md border border-gray-200">
-            <h3 className="text-xl font-semibold text-blue-700">[Job Title]</h3>
-            <p className="text-gray-800"><span className="font-semibold">[Company Name]</span> - <span className="font-semibold">[Location]</span> (<span className="font-semibold">[Year Started] - [Year Ended]</span>)</p>
+            <h3 className="text-xl font-semibold text-blue-700">Data Analyst.</h3>
+            <p className="text-gray-800"><span className="font-semibold">Save A Soul Organization</span> - <span className="font-semibold">Kenya, Kiambu</span> (<span className="font-semibold">2023 - Till Now.</span>)</p>
             <ul className="list-disc pl-5 text-gray-800 mt-2 space-y-1">
-              <li>Led <span className="font-semibold text-blue-800">[Project or Initiative]</span> resulting in <span className="font-semibold text-blue-800">[Achievement]</span>.</li>
-              <li>Implemented <span className="font-semibold text-blue-800">[Process or Tool]</span> to improve <span className="font-semibold text-blue-800">[Specific Aspect]</span> by <span className="font-semibold text-blue-800">[Result]</span>.</li>
-              <li>Collaborated with <span className="font-semibold text-blue-800">[Team or Department]</span> to achieve <span className="font-semibold text-blue-800">[Objective]</span>.</li>
+              <li>Led <span className="font-semibold text-blue-800">Data Analysis</span> resulting in <span className="font-semibold text-blue-800">New fees collection system.</span>.</li>
+              <li>Implemented <span className="font-semibold text-blue-800">Data Analysis Tool</span> to improve <span className="font-semibold text-blue-800">Finance Accounting</span> by <span className="font-semibold text-blue-800">SQLite</span>.</li>
+              <li>Collaborated with <span className="font-semibold text-blue-800">Organization Manager</span> to achieve <span className="font-semibold text-blue-800">To ehnance school accountings</span>.</li>
             </ul>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg shadow-md border border-gray-200">
@@ -92,7 +92,7 @@ export default function More_about_me() {
       <section className="text-center mb-10">
         <h2 className="text-3xl font-semibold text-blue-800 mb-6 border-b-2 border-blue-300 pb-2">Get in Touch</h2>
         <p className="text-lg leading-relaxed text-gray-800">
-          If you’d like to connect or learn more about my work, feel free to reach out via <a href="mailto:[Your Email Address]" className="text-blue-600 hover:underline">email</a> or connect with me on <a href="[Your LinkedIn Profile]" className="text-blue-600 hover:underline">LinkedIn</a>.
+          If you’d like to connect or learn more about my work, feel free to reach out via <a href="mailto:[pmbugua276@gmail.com]" className="text-blue-600 hover:underline">email</a> or connect with me on <a href="https://www.linkedin.com/in/peter-mbugua-a6351a262" className="text-blue-600 hover:underline">LinkedIn</a>.
         </p>
       </section>
 

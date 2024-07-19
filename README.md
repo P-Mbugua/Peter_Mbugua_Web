@@ -59,9 +59,9 @@ I have experience with the following technologies and tools:
 
 ## Education
 
-### [Degree] in [Field of Study]
-* **Institution**: [University/College Name]
-* **Graduation Year**: [Year]
+### Post Graduate in Software Engineering
+* **Institution**: Moringa School
+* **Graduation Year**: 2024
 
 *Add more educational details if applicable.*
 

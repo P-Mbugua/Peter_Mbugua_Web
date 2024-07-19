@@ -54,7 +54,7 @@ export default function Footer() {
           {isLicenseVisible && (
             <div className="mt-4 p-6 bg-gray-800 text-gray-200 rounded-lg shadow-lg">
               <h3 className="text-lg font-bold mb-2">Personal Portfolio License Agreement</h3>
-              <p className="mb-2">Copyright 2024 spookeyy, skmutai6, P-Mbugua, SCARLET-SARAH</p>
+              <p className="mb-2">Copyright 2024 P-Mbugua</p>
               <section className="mb-4">
                 <h4 className="font-semibold">Permission</h4>
                 <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>

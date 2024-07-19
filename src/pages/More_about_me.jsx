@@ -10,7 +10,7 @@ export default function More_about_me() {
 
   return (
     <div className="max-w-4xl pt-17 mx-auto p-8 bg-white rounded-2xl shadow-2xl border border-gray-300">
-      <h1 className="text-4xl font-bold text-center mb-10 text-blue-900 border-b-4 border-blue-500 pb-4">More About Me</h1>
+      <h1 className="text-4xl font-bold text-center mb-10 text-blue-900 border-b-4 border-blue-500 pt-10 pb-4">More About Me</h1>
 
       {/* Personal Details Section */}
       <section className="mb-10">

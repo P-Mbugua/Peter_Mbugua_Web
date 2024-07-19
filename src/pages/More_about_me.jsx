@@ -84,7 +84,7 @@ export default function More_about_me() {
       <section className="mb-10">
         <h2 className="text-3xl font-semibold text-blue-800 mb-6 border-b-2 border-blue-300 pb-2">Hobbies and Interests</h2>
         <p className="text-lg leading-relaxed text-gray-800">
-          Outside of my professional life, I am passionate about <span className="font-semibold text-blue-800">[Your Hobbies]</span>, including <span className="font-semibold text-blue-800">[Specific Hobby]</span> and <span className="font-semibold text-blue-800">[Specific Hobby]</span>. These activities not only provide a creative outlet but also help me maintain a balanced and fulfilling life.
+          Outside of my professional life, I am passionate about <span className="font-semibold text-blue-800">Travelling</span>, including <span className="font-semibold text-blue-800">exploring the nature</span> and <span className="font-semibold text-blue-800">Watching </span>. These activities not only provide a creative outlet but also help me maintain a balanced and fulfilling life.
         </p>
       </section>
 

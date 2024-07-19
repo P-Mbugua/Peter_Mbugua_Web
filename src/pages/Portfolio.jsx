@@ -3,15 +3,27 @@ import React, { useState } from 'react';
 export default function Portfolio() {
   const [showContactForm, setShowContactForm] = useState(false);
 
+  const openContactForm = () => {
+    setShowContactForm(true);
+    document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
+  };
+
+  const closeContactForm = () => {
+    setShowContactForm(false);
+    document.body.style.overflow = 'auto'; // Enable scrolling when modal is closed
+  };
+
   return (
-    <div className="bg-gray-100 py-12  sm:mt-7 ">
+    <div className="bg-gray-100 py-12 sm:mt-7">
       {/* Header Section */}
       <header className="bg-white shadow-md">
-      <div className="max-w-5xl mx-auto px-6 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Project Highlights</h2>
-          <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-            Explore a selection of projects that highlight my expertise in web development and design. These projects demonstrate my ability to create innovative and user-focused solutions.
-          </p>
+        <div className="max-w-5xl mx-auto px-6 text-center">
+          <div className="bg-gray-900 text-white py-8 rounded-t-lg">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-100 mb-4">Project Highlights</h2>
+            <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
+              Explore a selection of projects that highlight my expertise in web development and design. These projects demonstrate my ability to create innovative and user-focused solutions.
+            </p>
+          </div>
         </div>
       </header>
 
@@ -25,37 +37,37 @@ export default function Portfolio() {
                 title: "Project One",
                 description: "A dynamic web application built with React and Node.js, offering real-time data updates and a seamless user interface.",
                 link: "https://example.com/project-one",
-                imgSrc: "src/assets/hotel.png"
+                imgSrc: "src/assets/project-one.png"
               },
               {
                 title: "Project Two",
                 description: "An e-commerce platform featuring custom backend and frontend with advanced authentication and payment integration.",
                 link: "https://example.com/project-two",
-                imgSrc: "src/assets/hotel.png"
+                imgSrc: "src/assets/project-two.png"
               },
               {
                 title: "Project Three",
                 description: "A mobile-friendly application with responsive design and enhanced user accessibility, designed for collaborative use.",
                 link: "https://example.com/project-three",
-                imgSrc: "src/assets/hotel.png"
+                imgSrc: "src/assets/project-three.png"
               },
               {
                 title: "Project Four",
                 description: "A real-time chat application utilizing WebSocket technology for instant messaging, ensuring a smooth user experience.",
                 link: "https://example.com/project-four",
-                imgSrc: "src/assets/hotel.png"
+                imgSrc: "src/assets/project-four.png"
               },
               {
-                title: "Project Four",
-                description: "A real-time chat application utilizing WebSocket technology for instant messaging, ensuring a smooth user experience.",
-                link: "https://example.com/project-four",
-                imgSrc: "src/assets/hotel.png"
+                title: "Project Five",
+                description: "Another exciting project description.",
+                link: "https://example.com/project-five",
+                imgSrc: "src/assets/project-five.png"
               },
               {
-                title: "Project Four",
-                description: "A real-time chat application utilizing WebSocket technology for instant messaging, ensuring a smooth user experience.",
-                link: "https://example.com/project-four",
-                imgSrc: "src/assets/hotel.png"
+                title: "Project Six",
+                description: "Yet another amazing project description.",
+                link: "https://example.com/project-six",
+                imgSrc: "src/assets/project-six.png"
               }
             ].map((project, index) => (
               <div
@@ -67,7 +79,7 @@ export default function Portfolio() {
                   alt={project.title}
                   className="w-full h-48 md:h-64 object-cover rounded-lg"
                 />
-                <div className="absolute inset-0 bg-gray-800 bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                <div className="absolute inset-0 bg-gray-900 bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                   <div className="text-center text-white p-6">
                     <h3 className="text-xl font-semibold mb-4">{project.title}</h3>
                     <p className="text-sm mb-6">{project.description}</p>
@@ -95,17 +107,17 @@ export default function Portfolio() {
             I’d love to hear from you! Whether you have a question about my work, a potential collaboration, or just want to connect, feel free to reach out using the form below.
           </p>
           <button
-            onClick={() => setShowContactForm(true)}
+            onClick={openContactForm}
             className="inline-flex items-center px-6 py-3 border border-transparent text-lg font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-transform transform hover:scale-105"
           >
-          Contact Me
+            Contact Me
           </button>
           {showContactForm && (
             <div className="fixed inset-0 flex items-center justify-center z-50 bg-gray-900 bg-opacity-50">
-              <div className="bg-white p-6 rounded-lg shadow-xl relative w-full max-w-md mx-4 transition-transform transform scale-100">
+              <div className="bg-white p-6 rounded-lg shadow-xl relative w-full max-w-md mx-4">
                 {/* Close Button */}
                 <button
-                  onClick={() => setShowContactForm(false)}
+                  onClick={closeContactForm}
                   className="absolute top-4 right-4 p-2 text-gray-600 hover:text-gray-900 focus:outline-none"
                 >
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

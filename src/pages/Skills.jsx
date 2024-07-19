@@ -2,11 +2,11 @@ import React, { useEffect, useRef } from 'react';
 
 // Sample data for skills
 const technicalSkillsData = [
-  { name: 'JavaScript', level: 90 },
-  { name: 'React', level: 85 },
+  { name: 'JavaScript', level: 60 },
+  { name: 'React', level: 55 },
   { name: 'CSS', level: 80 },
-  { name: 'HTML', level: 75 },
-  { name: 'Python', level: 70 }
+  { name: 'HTML', level: 80 },
+  { name: 'Python', level: 50 }
 ];
 
 const softSkillsData = [

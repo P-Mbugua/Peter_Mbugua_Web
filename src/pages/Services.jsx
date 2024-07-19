@@ -59,13 +59,13 @@ const services = [
 ];
 
 export default function Services() {
+  const mainColor = 'bg-blue-500 text-white'; // Define your desired main color here
+
   return (
     <div className="container mx-auto px-4 py-8 pt-24">
       <header className="text-center mb-12">
-        <div className="bg-gradient-to-r from-blue-500 via-purple-600 to-pink-500 p-1 rounded-full inline-block">
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-red-500 to-pink-600 mb-4">
-            My Expertise
-          </h1>
+        <div className={`bg-gradient-to-r ${mainColor} p-1 rounded-full inline-block bg-cover bg-no-repeat`}>
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">My Expertise</h1>
         </div>
         <p className="text-lg md:text-xl text-gray-700 mx-auto max-w-2xl">
           As a passionate developer, I offer a range of specialized services to help you achieve your goals and elevate your projects.

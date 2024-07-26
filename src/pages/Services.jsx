@@ -1,6 +1,7 @@
 import React from 'react';
 
-// Define your services with distinct background colors and text colors
+
+// Defined services with distinct background colors and text colors
 const services = [
   {
     title: 'Custom Web Development',
@@ -58,18 +59,23 @@ const services = [
   },
 ];
 
+
+
 export default function Services() {
-  const mainColor = 'bg-blue-500 text-white'; // Define your desired main color here
+  const mainColor = 'bg-blue-500 text-white'; 
 
   return (
     <div className="container mx-auto px-4 py-8 pt-24">
       <header className="text-center mb-12">
-        <div className={`bg-gradient-to-r ${mainColor} p-1 rounded-full inline-block bg-cover bg-no-repeat`}>
+        <div className={`bg-gradient-to-r ${mainColor} p-4 rounded-t-lg  inline-block bg-cover bg-no-repeat`}>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">My Expertise</h1>
-        </div>
-        <p className="text-lg md:text-xl text-gray-700 mx-auto max-w-2xl">
-          As a passionate developer, I offer a range of specialized services to help you achieve your goals and elevate your projects.
+          <p className="text-lg md:text-xl text-gray-700 mx-auto max-w-2xl">
+          As a passionate Junior Developer, I offer a range of specialized services to help you achieve your goals and elevate your projects.
         </p>
+        </div>
+    
+
+    
       </header>
       <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {services.map((service, index) => (

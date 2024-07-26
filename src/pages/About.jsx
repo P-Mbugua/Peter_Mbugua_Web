@@ -3,6 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <div className="container mx-auto xl:mt-20 pt-24 px-6 py-12 bg-gray-50 rounded-lg shadow-lg max-w-4xl border border-gray-300">
+      
       {/* Main Title */}
       <header className="mb-12 text-center">
         <h1 className="text-4xl font-extrabold text-gray-900">About Me</h1>
@@ -11,6 +12,7 @@ const About = () => {
         </p>
       </header>
 
+     
       {/* Professional Experience */}
       <section className="mb-12">
         <h2 className="text-3xl font-semibold mb-4 text-gray-800 border-b-2 border-teal-400 pb-2">Professional Experience</h2>
@@ -18,12 +20,13 @@ const About = () => {
           Over the time, I’ve honed my skills through various roles in different environments. I’ve led development teams, architected scalable systems, and driven projects from conception to deployment. My experience includes:
         </p>
         <ul className="list-disc list-inside space-y-2 text-gray-600">
-          <li><strong>Lead Developer at School Groups</strong>: Spearheaded the development of a high-performance web application that increased user engagement by 30%.</li>
-          <li><strong>Junior Software Engineer at Techran</strong>: Managed a team of developers to build a cloud-based solution, resulting in a 50% reduction in operational costs.</li>
-          <li><strong>Full-Stack Developer at Hexaq</strong>: Developed and maintained multiple applications, optimizing code and enhancing functionality to meet evolving business needs.</li>
+          <li><strong>Lead Developer at School Groups</strong>: Spearheaded the development of a high-performance web application that increased user engagement by 20%.</li>
+          <li><strong>Junior Developer at Techran</strong>: Managed a team of developers to build a cloud-based solution, resulting in a 5% reduction in operational costs.</li>
+          <li><strong>Junior Developer at Hexaq</strong>: Developed and maintained multiple applications, optimizing code and enhancing functionality to meet evolving business needs.</li>
         </ul>
       </section>
 
+     
       {/* Achievements */}
       <section className="mb-12">
         <h2 className="text-3xl font-semibold mb-4 text-gray-800 border-b-2 border-teal-400 pb-2">Achievements</h2>
@@ -37,6 +40,7 @@ const About = () => {
         </ul>
       </section>
 
+     
       {/* Personal Interests */}
       <section className="mb-12">
         <h2 className="text-3xl font-semibold mb-4 text-gray-800 border-b-2 border-teal-400 pb-2">Personal Interests</h2>
@@ -50,6 +54,7 @@ const About = () => {
         </ul>
       </section>
 
+      
       {/* Values & Philosophy */}
       <section className="mb-12">
         <h2 className="text-3xl font-semibold mb-4 text-gray-800 border-b-2 border-teal-400 pb-2">Values & Philosophy</h2>
@@ -63,6 +68,7 @@ const About = () => {
         </ul>
       </section>
 
+      
       {/* Future Goals */}
       <section className="mb-12">
         <h2 className="text-3xl font-semibold mb-4 text-gray-800 border-b-2 border-teal-400 pb-2">Future Goals</h2>
@@ -76,6 +82,7 @@ const About = () => {
         </ul>
       </section>
 
+      
       {/* Call to Action */}
       <div className="text-center mt-8">
         <a

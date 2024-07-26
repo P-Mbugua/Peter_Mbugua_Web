@@ -21,53 +21,53 @@ export default function Portfolio() {
           <div className="bg-gray-900 text-white py-8 rounded-t-lg">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-100 mb-4">Project Highlights</h2>
             <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-              Explore a selection of projects that highlight my expertise in web development and design. These projects demonstrate my ability to create innovative and user-focused solutions.
+              Explore a selection of projects that highlight my expertise in web development and design as junior Developer. These projects demonstrate my ability to create innovative and user-focused solutions as a junior developer.
             </p>
           </div>
         </div>
       </header>
 
+
       {/* Projects Section */}
       <section className="bg-white py-12 md:py-16">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8 text-center">Featured Projects</h2>
+
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "Project One",
+                title: "Hotel Management System",
                 description: "A dynamic web application built with React and Node.js, offering real-time data updates and a seamless user interface.",
                 link: "https://example.com/project-one",
-                imgSrc: "src/assets/project-one.png"
+                imgSrc: "src/assets/hotel.png"
               },
               {
-                title: "Project Two",
+                title: "Simple Transaction Management System.",
                 description: "An e-commerce platform featuring custom backend and frontend with advanced authentication and payment integration.",
                 link: "https://example.com/project-two",
-                imgSrc: "src/assets/project-two.png"
+                imgSrc: "src/assets/hotel.png"
               },
               {
-                title: "Project Three",
-                description: "A mobile-friendly application with responsive design and enhanced user accessibility, designed for collaborative use.",
+                title: "E-Commerce-Shop.",
+                description: "A mobile-friendly application with responsive design and enhanced user accessibility, designed for selling different products but also a very simple application at the same time developed by juniors who are in moringa.",
                 link: "https://example.com/project-three",
-                imgSrc: "src/assets/project-three.png"
+                imgSrc: "src/assets/hotel.png"
               },
               {
-                title: "Project Four",
-                description: "A real-time chat application utilizing WebSocket technology for instant messaging, ensuring a smooth user experience.",
-                link: "https://example.com/project-four",
-                imgSrc: "src/assets/project-four.png"
+                title: "School Management System.",
+                description: "A real-time  application that is to be used by a small school to make their management works much easier espicially o the school fees payments and also tracking.",               link: "https://example.com/project-four",
+                imgSrc: "src/assets/hotel.png"
               },
               {
-                title: "Project Five",
-                description: "Another exciting project description.",
+                title: "Pest Management System.",
+                description: "A system to be used by farmers like an AI that will be used to be identifying pest and the system provides seamless measusres to be taken by the farmer.",
                 link: "https://example.com/project-five",
-                imgSrc: "src/assets/project-five.png"
+                imgSrc: "src/assets/hotel.png"
               },
               {
-                title: "Project Six",
-                description: "Yet another amazing project description.",
+                title: "Reach Roy Hub Designs Cyber.",
+                description: "Simple company profile website showcasing companys specifics and also services offered and also pricing.",
                 link: "https://example.com/project-six",
-                imgSrc: "src/assets/project-six.png"
+                imgSrc: "src/assets/hotel.png"
               }
             ].map((project, index) => (
               <div
@@ -98,11 +98,12 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
+      
 
       {/* Contact Section */}
-      <section className="py-12 md:py-16 bg-gray-50">
+      <section className="py-12 md:py-16 bg-gray-100">
         <div className="max-w-5xl mx-auto px-6 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Get in Touch</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Get in Touch</h2>
           <p className="text-lg md:text-xl text-gray-600 mb-8">
             I’d love to hear from you! Whether you have a question about my work, a potential collaboration, or just want to connect, feel free to reach out using the form below.
           </p>

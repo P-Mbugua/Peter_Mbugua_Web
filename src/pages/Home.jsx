@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaWhatsapp, FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa'; // Import social media icons including GitHub
+import { FcAbout } from 'react-icons/fc';
+
 
 export default function Home() {
   return (
@@ -28,7 +30,7 @@ export default function Home() {
             {/* Description and Buttons */}
             <div className="flex flex-col items-center md:items-start w-full text-center md:text-left">
             <p className="text-sm md:text-base lg:text-lg xl:text-xl mb-4 md:mb-6 lg:mb-8 leading-relaxed text-gray-800 animate-fade-in">
-                Hello, I'm Peter Mbugua, a Junior Software Engineer passionate about crafting innovative and
+                Hello there, I'm Peter Mbugua, a Junior Software Engineer passionate about crafting innovative and
                  user-friendly systems. With expertise in Full Stack Development, Software Applications, 
                  Website Development, and Graphic Design, I thrive on creating seamless digital experiences 
                  that marry functionality with aesthetics. Let's collaborate and build something amazing
@@ -50,7 +52,7 @@ export default function Home() {
                   Connect with me on my social accounts
                 </h2>
                 <p className="text-sm md:text-base lg:text-lg xl:text-xl text-gray-700 leading-relaxed mb-4 md:mb-6 lg:mb-8 xl:mb-10 animate-fade-in">
-                  Explore advanced coding techniques and stay updated on my latest projects. Let's
+                  Explore my coding techniques as a Junior Developer and stay updated on my latest projects. Let's
                    collaborate and innovate together!
                 </p>
 
@@ -119,7 +121,7 @@ export default function Home() {
 
               {/* View CV Button */}
               <a 
-                href="https://drive.google.com/file/d/1MwyqRGN-Qr-UH_oMc7gJP7b7t8QidfsV/view"
+                href="src/assets/PETER MBUGUA NGUMI CURRICULUM  VITAE.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-4 py-2 text-white bg-blue-600 rounded-full hover:bg-blue-700 transition duration-300 text-xs md:text-sm lg:text-base xl:text-lg animate-fall-in"
@@ -131,5 +133,7 @@ export default function Home() {
         </div>
       </div>
     </div>
+    
   );
+ 
 }

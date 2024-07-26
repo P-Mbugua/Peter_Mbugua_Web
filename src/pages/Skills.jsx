@@ -39,7 +39,7 @@ const Skills = () => {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h2 className="text-5xl font-extrabold mb-4 text-shadow-lg">Skills & Expertise</h2>
           <p className="text-lg font-light mb-8">
-            Here is a summary of my skills and expertise. I have experience with a variety of technologies and tools,
+            Here is a summary of my skills and expertise as a Junior Developer. I have experience with a variety of technologies and tools,
             and I am continuously learning and improving. Below you will find some key areas of my technical skillset
             and soft skills.
           </p>
@@ -88,7 +88,7 @@ const Skills = () => {
       </div>
 
       {/* Contact or Further Information */}
-      <div className="mt-12 text-center">
+      <div className="mt-12 text-center bg-gray-150">
         <p className="text-gray-700 text-lg">
           I’m excited to connect and explore potential opportunities. Whether you’re interested in discussing my skills, 
           collaborating on a project, or just want to chat about tech, feel free to 
@@ -98,5 +98,4 @@ const Skills = () => {
     </div>
   );
 };
-
 export default Skills;

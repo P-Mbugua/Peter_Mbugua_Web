@@ -1,18 +1,25 @@
 // src/Footer.js
 
+
 import React, { useState } from 'react';
+
 
 export default function Footer() {
   const [isLicenseVisible, setIsLicenseVisible] = useState(false);
 
+
   const toggleLicenseVisibility = () => {
     setIsLicenseVisible(!isLicenseVisible);
   };
+  
 
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="bg-gray-900 text-white py-12 ">
       <div className="container mx-auto px-6 md:px-12 lg:px-24">
         <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start mb-8">
+
+
+
 
           {/* About Section */}
           <div className="text-center lg:text-left mb-6 lg:mb-0">
@@ -22,6 +29,8 @@ export default function Footer() {
               Crafting user-centric designs and interactive experiences. Passionate about modern web technologies and creative solutions.
             </p>
           </div>
+
+
 
           {/* Social Media Links */}
           <div className="flex space-x-6 mb-6 lg:mb-0">
@@ -42,6 +51,8 @@ export default function Footer() {
             </a>
           </div>
         </div>
+
+
 
         {/* License Section */}
         <div className="text-center mt-8">
@@ -68,10 +79,12 @@ export default function Footer() {
           )}
         </div>
 
+
+
         {/* Footer Bottom */}
         <div className="text-center mt-8">
           <p className="text-sm text-gray-400">
-            &copy; 2024 Peter Mbugua. All rights reserved.
+            &copy; 2024 Peter Mbugua (Developer P.). All rights reserved.
           </p>
         </div>
       </div>

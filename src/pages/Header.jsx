@@ -6,15 +6,21 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 const searchData = [
   { name: 'Portfolio', path: '/portfolio' },
   { name: 'Contact', path: '/contact' },
-  { name: 'Email', action: () => window.location.href = 'mailto:your-email@example.com' },
+  { name: 'Services', path: '/services' },
+  { name: 'Services', path: '/services' },
+  { name: 'More_About_Me', path: '/more_about_me' },
+  { name: 'About', path: '/about' },
+  { name: 'Email', action: () => window.location.href = 'mailto:pmbugua276@gmail.com' },
   // Add more items as needed
 ];
+
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [query, setQuery] = useState('');
   const [results, setResults] = useState([]);
   const navigate = useNavigate(); // useNavigate hook for programmatic navigation
+
 
   const handleSearch = (e) => {
     e.preventDefault();
@@ -36,6 +42,8 @@ const Header = () => {
       }
     }
   };
+
+
 
   const handleMenuClick = () => {
     setIsMenuOpen(false); // Close the menu
@@ -61,6 +69,8 @@ const Header = () => {
           <NavItem to="/contact" label="Contact" />
         </div>
 
+
+
         {/* Hamburger Menu Icon */}
         <div className="md:hidden flex items-center">
           <button
@@ -71,11 +81,15 @@ const Header = () => {
           </button>
         </div>
 
+
+
         {/* Search Form */}
         <div className="hidden md:flex items-center">
           <SearchForm query={query} setQuery={setQuery} handleSearch={handleSearch} />
         </div>
       </nav>
+
+
 
       {/* Mobile Menu for smaller screens */}
       <MobileMenu
@@ -86,6 +100,8 @@ const Header = () => {
         handleSearch={handleSearch}
         results={results}
       />
+
+
 
       {/* Overlay */}
       {isMenuOpen && (
@@ -98,6 +114,8 @@ const Header = () => {
   );
 };
 
+
+
 // Component for Navigation Item
 const NavItem = ({ to, label }) => (
   <Link
@@ -107,6 +125,8 @@ const NavItem = ({ to, label }) => (
     {label}
   </Link>
 );
+
+
 // Component for Search Form
 const SearchForm = ({ query, setQuery, handleSearch }) => (
   <form onSubmit={handleSearch} className="flex items-center bg-gray-200 rounded-lg overflow-hidden ml-4">
@@ -127,6 +147,8 @@ const SearchForm = ({ query, setQuery, handleSearch }) => (
   </form>
 );
 
+
+
 // Component for Mobile Menu
 const MobileMenu = ({ isOpen, handleMenuClick, query, setQuery, handleSearch, results }) => (
   <div
@@ -143,10 +165,14 @@ const MobileMenu = ({ isOpen, handleMenuClick, query, setQuery, handleSearch, re
         </button>
       )}
 
+
+
       {/* Search Form for mobile screens */}
       <div className="mt-6">
         <SearchForm query={query} setQuery={setQuery} handleSearch={handleSearch} />
       </div>
+
+
 
       {/* Search Results for Mobile */}
       <div className="mt-4">
@@ -172,6 +198,8 @@ const MobileMenu = ({ isOpen, handleMenuClick, query, setQuery, handleSearch, re
         )}
       </div>
 
+
+
       {/* Menu Items */}
       <ul className="flex flex-col items-center space-y-2 mt-6">
         <MenuItem to="/" label="Home" handleMenuClick={handleMenuClick} />
@@ -184,6 +212,8 @@ const MobileMenu = ({ isOpen, handleMenuClick, query, setQuery, handleSearch, re
     </div>
   </div>
 );
+
+
 
 // Component for Menu Item
 const MenuItem = ({ to, label, handleMenuClick }) => (

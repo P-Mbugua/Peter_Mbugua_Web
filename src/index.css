@@ -3,6 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 /* Keyframes for filling bar animation */
 @keyframes fillBar {
   from {
@@ -17,6 +19,8 @@
   animation: fillBar 1.5s ease-out forwards;
 }
 
+
+
 /* Relative and absolute positioning */
 .relative {
   position: relative;
@@ -25,6 +29,8 @@
 .absolute {
   position: absolute;
 }
+
+
 
 /* Group hover effects for opacity */
 .group:hover .group-hover\:opacity-100 {
@@ -35,10 +41,14 @@
   opacity: 0;
 }
 
+
+
 /* Background color with opacity */
 .bg-gray-800 {
   background-color: rgba(31, 41, 55, 0.75); /* Gray-800 with 75% opacity */
 }
+
+
 
 /* Transition effects */
 .transition-opacity {
@@ -52,6 +62,9 @@
 .transform:hover {
   transform: scale(1.05);
 }
+
+
+
 
 /* Keyframes for marquee animation */
 @keyframes marquee {
@@ -70,6 +83,8 @@
   position: relative; /* Ensure it stays within its container */
   animation: marquee 15s linear infinite, colorChange 15s linear infinite; /* Apply both animations with extended duration */
 }
+
+
 
 /* Keyframes for color-changing effect with many colors */
 @keyframes colorChange {
@@ -93,6 +108,8 @@
 }
 
 
+
+
 /* In your global CSS file or Tailwind CSS custom styles */
 .text-gradient {
   background: linear-gradient(to right, #FF6F61, #D9A9FF);
@@ -103,8 +120,6 @@
 }
 
 
-
-/* global.css or styles.css */
 
 /* Keyframes for the falling effect */
 @keyframes fallIn {
@@ -118,16 +133,23 @@
   }
 }
 
+
+
 /* Animation class */
 .animate-fall-in {
-  animation: fallIn 6s ease-out forwards;
+  animation: fallIn 2s ease-out forwards;
 }
+
+
+
 
 /* Optional additional classes for staggered effects */
 .staggered-animate {
   opacity: 0;
   animation: fallIn 6s ease-out forwards;
 }
+
+
 
 
 /* Custom text shadow class */

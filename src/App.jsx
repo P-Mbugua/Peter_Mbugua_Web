@@ -4,6 +4,7 @@ import React, { lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Spinner from './components/Spinner';
 
+
 // Lazy-loaded components
 const Home = lazy(() => import('./pages/Home'));
 const Portfolio = lazy(() => import('./pages/Portfolio'));
@@ -14,6 +15,7 @@ const Services = lazy(() => import('./pages/Services'));
 const Header = lazy(() => import('./pages/Header'));
 const Footer = lazy(() => import('./pages/Footer'));
 const About = lazy(() => import('./pages/About')); // Import About component
+
 
 function App() {
   return (

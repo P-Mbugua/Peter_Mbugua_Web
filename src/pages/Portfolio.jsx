@@ -36,13 +36,13 @@ export default function Portfolio() {
             {[
               {
                 title: "Hotel Management System",
-                description: "A dynamic web application built with React and Node.js, offering real-time data updates and a seamless user interface.",
+                description: "A dynamic web application built with React and python, offering real-time data updates and a seamless user interface.",
                 link: "https://stay-manager-mg.netlify.app/",
                 imgSrc: "src/assets/hotel.png"
               },
               {
-                title: "Simple Transaction Management System.",
-                description: "An e-commerce platform featuring custom backend and frontend with advanced authentication and payment integration.",
+                title: "Simple Transaction System.",
+                description: "A transaction system featuring a custom backend and frontend with advanced authentication and payment integration capabilities.",
                 link: "https://fancy-strudel-8646c2.netlify.app/",
                 imgSrc: "src/assets/hotel.png"
               },

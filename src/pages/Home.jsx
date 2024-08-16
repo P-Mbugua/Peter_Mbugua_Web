@@ -121,7 +121,7 @@ export default function Home() {
 
               {/* View CV Button */}
               <a 
-                href="src/assets/PETER MBUGUA NGUMI CURRICULUM  VITAE.pdf"
+                href="/src/assets/PETER_MBUGUA_NGUMI_CURRICULUM%20_VITAE.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-4 py-2 text-white bg-blue-600 rounded-full hover:bg-blue-700 transition duration-300 text-xs md:text-sm lg:text-base xl:text-lg animate-fall-in"

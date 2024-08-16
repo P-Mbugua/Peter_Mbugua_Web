@@ -59,7 +59,7 @@ export default function Portfolio() {
               },
               {
                 title: "Parcel Delivery Management System.",
-                description: "A system to be used by farmers like an AI that will be used to be identifying pest and the system provides seamless measusres to be taken by the farmer.",
+                description: "Simple parcel delivery system for different bussinesses..",
                 link: "https://parcelpoa.netlify.app/",
                 imgSrc: "src/assets/hotel.png"
               }

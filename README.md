@@ -43,17 +43,7 @@ I have experience with the following technologies and tools:
 - **Databases**: MySQL.
 - **Tools & Platforms**:  Git.
 
-## Experience
 
-### [Job Title - Company Name](link-to-company)
-* **Dates of Employment**: [Start Date] - [End Date]
-* **Responsibilities**: Briefly describe your role and responsibilities.
-* **Key Achievements**: Highlight any notable accomplishments or projects.
-
-### [Job Title - Company Name](link-to-company)
-* **Dates of Employment**: [Start Date] - [End Date]
-* **Responsibilities**: Briefly describe your role and responsibilities.
-* **Key Achievements**: Highlight any notable accomplishments or projects.
 
 *Add more experiences as needed.*
 

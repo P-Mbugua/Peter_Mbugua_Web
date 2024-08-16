@@ -37,7 +37,7 @@ export default function Portfolio() {
               {
                 title: "Hotel Management System",
                 description: "A dynamic web application built with React and Node.js, offering real-time data updates and a seamless user interface.",
-                link: "https://example.com/project-one",
+                link: "https://stay-manager-mg.netlify.app/",
                 imgSrc: "src/assets/hotel.png"
               },
               {
@@ -61,12 +61,6 @@ export default function Portfolio() {
                 title: "Parcel Delivery Management System.",
                 description: "A system to be used by farmers like an AI that will be used to be identifying pest and the system provides seamless measusres to be taken by the farmer.",
                 link: "https://parcelpoa.netlify.app/",
-                imgSrc: "src/assets/hotel.png"
-              },
-              {
-                title: "Reach Roy Hub Designs Cyber.",
-                description: "Simple company profile website showcasing companys specifics and also services offered and also pricing.",
-                link: "https://example.com/project-six",
                 imgSrc: "src/assets/hotel.png"
               }
             ].map((project, index) => (

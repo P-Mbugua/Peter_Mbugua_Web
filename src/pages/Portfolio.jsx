@@ -43,7 +43,7 @@ export default function Portfolio() {
               {
                 title: "Simple Transaction Management System.",
                 description: "An e-commerce platform featuring custom backend and frontend with advanced authentication and payment integration.",
-                link: "https://example.com/project-two",
+                link: "https://fancy-strudel-8646c2.netlify.app/",
                 imgSrc: "src/assets/hotel.png"
               },
               {
@@ -58,9 +58,9 @@ export default function Portfolio() {
                 imgSrc: "src/assets/hotel.png"
               },
               {
-                title: "Pest Management System.",
+                title: "Parcel Delivery Management System.",
                 description: "A system to be used by farmers like an AI that will be used to be identifying pest and the system provides seamless measusres to be taken by the farmer.",
-                link: "https://example.com/project-five",
+                link: "https://parcelpoa.netlify.app/",
                 imgSrc: "src/assets/hotel.png"
               },
               {
